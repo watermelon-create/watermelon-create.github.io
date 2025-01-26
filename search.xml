@@ -2484,15 +2484,7 @@
   <entry>
     <title>八股文更新</title>
     <url>/2025/01/26/JOB-md/</url>
-    <content><![CDATA[<h1 id="面试前"><a href="#面试前" class="headerlink" title="面试前"></a>面试前</h1><p>1、了解下公司是做什么的？了解公司的企业文化价值观？投其所好</p>
-<p>2、未来规划？</p>
-<p>第一年，我希望可以熟悉公司内的业务，能适应公司氛围。团结友爱同事，和同事建立良好的工作关系。<br>第二年，我希望可以逐渐的独立做公司的业务，撑起一部分公司的任务，为公司创造利润。<br>第三年及其之后，我希望不断拓展自己做业务的能力，并且可以扩大自己业务的范围，在各个方面更加成熟。同时，随着公司的不断发展，自身的业务能力和管理水平可以更上一层楼。</p>
-<p>3、如何看待私企和国企？</p>
-<p>对于私企的话，第一点，私企<strong>注重于市场竞争，而市场环境通常是恶劣的</strong>。第二点，私企在<strong>技术上先进成熟，对于个人来讲，成长很快</strong>。第三点，私企<strong>面临裁员的风险很大，员工的生存压力</strong>大</p>
-<p>对于国企的话，第一点，国企属于<strong>国有经济，拥有完善的规章制度</strong>。第二点，国企可以给应届生<strong>提供一个较好的平台，学习很多的知识，为国家工作。</strong>第三点，<strong>国企的员工稳定性比私企好，生活压力没有那么大</strong>。</p>
-<p>4、职业规划</p>
-<p>#Java</p>
-<h2 id="1、什么是-Java-内部类？-内部类的分类有哪些-？内部类有哪些优点和应用场景？"><a href="#1、什么是-Java-内部类？-内部类的分类有哪些-？内部类有哪些优点和应用场景？" class="headerlink" title="1、什么是 Java 内部类？ 内部类的分类有哪些 ？内部类有哪些优点和应用场景？"></a>1、什么是 Java 内部类？ 内部类的分类有哪些 ？内部类有哪些优点和应用场景？</h2><p>内部类是指定义在另⼀个类内部的类，它可以访问外部类的成员变量和⽅法。</p>
+    <content><![CDATA[<h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><h2 id="1、什么是-Java-内部类？-内部类的分类有哪些-？内部类有哪些优点和应用场景？"><a href="#1、什么是-Java-内部类？-内部类的分类有哪些-？内部类有哪些优点和应用场景？" class="headerlink" title="1、什么是 Java 内部类？ 内部类的分类有哪些 ？内部类有哪些优点和应用场景？"></a>1、什么是 Java 内部类？ 内部类的分类有哪些 ？内部类有哪些优点和应用场景？</h2><p>内部类是指定义在另⼀个类内部的类，它可以访问外部类的成员变量和⽅法。</p>
 <p>内部类的分类有以下⼏种： </p>
 <ul>
 <li><p>成员内部类：定义在类内部，但在⽅法外部的类。它可以访问外部类的所有成员变量和⽅法； </p>
@@ -3418,7 +3410,7 @@
 <p><strong>AutoConfigurationImportSelector.class中有个获取配置类的方法，主要使用到SpringFactories 机制，类似于Java的SPI机制，它的核心逻辑是从 classpath 中读取到所有 Jar 包中的配置文件 META-IF&#x2F;spring.factories然后根据指定的 key 从配置文件中解析出对应的 value 值，多个value值用逗号隔开，这里使用的Key是EnableAutoConfiguration的全限定类名，最后根据注解@conditional注解过滤掉不必要的自动配置类</strong></p>
 <p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241021162118472-1737881543398131.png" alt="image-20241021162118472"></p>
 <p>###自定义一个SpringBoot的自动化配置</p>
-<p><img src="/JOB-md.assets/image-20241021212516181-1737881543398132.png" alt="image-20241021212516181"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241021212516181-1737881543398132.png" alt="image-20241021212516181"></p>
 <p>第一步：<strong>在项目下，将你的配置类写好，将要使用的Service注册到spring容器中，可以使用@Bean注解修饰</strong></p>
 <p>第二步：<strong>在resources目录下的meta-Inf,…创建，。。。目录，将要配置的类写到value位置</strong></p>
 <p>第三步：<strong>使用clean，install将项目打包，在别的项目中进行测试。</strong></p>
@@ -5193,7 +5185,7 @@
 <p><strong>一级缓存：</strong>一级缓存是默认开启的；不同sqlsession之间缓存互不影响。</p>
 <p>在sqlsession里面有个Executor对象，每个Executor对象都会有一个LocalCache的一个对象，用户发起查询时，Mybatis根据查询语句去Local Cache里面去查询，如果没有命中的话，再去查询数据库，并且写入到Local Cache里面，否则直接返回。如果在多个sqlsession或者分布式环境下，会出现脏数据（数据一致性问题）。</p>
 <p>———&gt;&gt;&gt;当多个SQL会话同时操作数据库时，可能会出现脏数据的问题。这是因为每个会话都有自己的缓存，如果某个会话更新了数据库中的数据，其他会话的缓存可能仍然包含旧的数据。</p>
-<img src="JOB-md.assets/image-20240522174956355-1737881543400183.png" alt="image-20240522174956355" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240522174956355-1737881543400183.png" alt="image-20240522174956355" style="zoom: 67%;" />
 
 <p><strong>改进？</strong></p>
 <p>统一使用第三方插件来做缓存，如redis，mamcache等，<br>关闭mybatis的一级缓存和二级缓存，<br>mybatis仅仅只限于orm框架，数据库和对象的映射，以及操作sql。</p>
@@ -6037,7 +6029,7 @@
 <p>学习网址：<a href="https://pan.baidu.com/s/1lTMMLqVXNuBspau6Vys4EA?pwd=q318#list/path=%2F">https://pan.baidu.com/s/1lTMMLqVXNuBspau6Vys4EA?pwd=q318#list/path=%2F</a></p>
 ]]></content>
       <categories>
-        <category>Codings</category>
+        <category>Coding</category>
       </categories>
       <tags>
         <tag>Java_knowledge-update</tag>
