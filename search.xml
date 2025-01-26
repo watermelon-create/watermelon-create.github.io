@@ -2482,7 +2482,7 @@
       </tags>
   </entry>
   <entry>
-    <title>JOB.md</title>
+    <title>八股文更新</title>
     <url>/2025/01/26/JOB-md/</url>
     <content><![CDATA[<h1 id="面试前"><a href="#面试前" class="headerlink" title="面试前"></a>面试前</h1><p>1、了解下公司是做什么的？了解公司的企业文化价值观？投其所好</p>
 <p>2、未来规划？</p>
@@ -2584,7 +2584,7 @@
 </ul>
 <p>线程本地存储：将共享数据的可见范围限制在一个线程中。这样无需同步也能保证线程之间不出现数据争用问题。</p>
 <p>经常使用的就是ThreadLocal类</p>
-<img src="JOB-md.assets/image-20241019180658796-173788154339560.png" alt="image-20241019180658796" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241019180658796-173788154339560.png" alt="image-20241019180658796" style="zoom:50%;" />
 
 <p>##泛型</p>
 <p>1、泛型的本质是为了将<strong>类型参数化</strong>，在泛型使用过程中，数据类型被设置为一个参数，从外部传入一个数据和数据类型不匹配，编译器报错</p>
@@ -2607,14 +2607,14 @@
 
 <h3 id="拉取当前分支的最新代码"><a href="#拉取当前分支的最新代码" class="headerlink" title="拉取当前分支的最新代码"></a>拉取当前分支的最新代码</h3><p>git pull origin &lt;分支名&gt;</p>
 <p>###推送到远程仓库</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"># 将文件添加到暂存区</span><br><span class="line">git add &lt;文件名&gt;  # 添加单个文件</span><br><span class="line">git add .        # 添加所有修改的文件</span><br><span class="line"></span><br><span class="line"># 提交更改</span><br><span class="line">git commit -m <span class="string">&quot;提交信息&quot;</span></span><br><span class="line"></span><br><span class="line">git push origin &lt;分支名&gt;    </span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"># 将文件添加到暂存区</span><br><span class="line">git add &lt;文件名&gt;  # 添加单个文件</span><br><span class="line">git add .        # 添加所有修改的文件</span><br><span class="line"></span><br><span class="line"># 提交更改到本地仓库</span><br><span class="line">git commit -m <span class="string">&quot;提交信息&quot;</span></span><br><span class="line"></span><br><span class="line">git push origin &lt;分支名&gt;    </span><br></pre></td></tr></table></figure>
 
 <p>##springboot</p>
 <p><strong>Spring</strong>：一个强大的<strong>依赖注入框架</strong>，<strong>用于管理对象生命周期、配置和依赖。</strong></p>
-<p><img src="/JOB-md.assets/image-20241027190107863-173788154339662.png" alt="image-20241027190107863"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241027190107863-173788154339662.png" alt="image-20241027190107863"></p>
 <p><strong>Spring MVC</strong>：基于 Spring 的 MVC 架构，<strong>用于处理 Web 请求和视图逻辑的控制器层</strong></p>
 <p><strong>MyBatis</strong>：一个 ORM（对象关系映射）框架，<strong>用于持久层操作，通过 SQL 查询操作数据库。</strong></p>
-<p><img src="/JOB-md.assets/image-20241027192055402-173788154339661.png" alt="image-20241027192055402"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241027192055402-173788154339661.png" alt="image-20241027192055402"></p>
 <p><strong>Spring Boot 是 Spring 框架的一个子项目，旨在简化 Spring 应用的开发。</strong>它集成了 Spring 框架的核心模块，自动配置很多默认的组件，并提供嵌入式服务器，使开发者可以快速构建独立运行的 Spring 应用。</p>
 <table>
 <thead>
@@ -2767,7 +2767,7 @@
 <li><strong>CGLIB 代理</strong>：用于代理没有实现接口的类。CGLIB 通过生成目标类的子类来代理方法调用。</li>
 </ul>
 <p>###Spring常见注解</p>
-<img src="JOB-md.assets/image-20241105223222632-1731414167417-173788154339663.png" alt="image-20241105223222632" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241105223222632-1731414167417-173788154339663.png" alt="image-20241105223222632" style="zoom: 67%;" />
 
 <p>MVC复合注解：@restController&#x3D;&#x3D;@Controller+@ResponseBody</p>
 <h2 id="docker"><a href="#docker" class="headerlink" title="docker"></a>docker</h2><p>Dockerfile 的基本结构</p>
@@ -2775,10 +2775,10 @@
 
 <h3 id=""><a href="#" class="headerlink" title=""></a></h3><h2 id="completableFuture"><a href="#completableFuture" class="headerlink" title="completableFuture"></a>completableFuture</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">volatile</span> Object result;       <span class="comment">// Either the result or boxed AltResult</span></span><br><span class="line"><span class="keyword">volatile</span> Completion stack;    <span class="comment">// Top of Treiber stack of dependent actions  链表实现的栈，保存了所有的后续动作</span></span><br></pre></td></tr></table></figure>
 
-<img src="JOB-md.assets/image-20241111113703756-173788154339664.png" alt="image-20241111113703756" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241111113703756-173788154339664.png" alt="image-20241111113703756" style="zoom:67%;" />
 
 <p><strong>在执行任务时，每个completablefuture都有一个completion，自身的completion会加入到前置completion的栈中，当前置栈完成任务时，会执行下一个栈中的任务。</strong></p>
-<img src="JOB-md.assets/image-20241111113407472-173788154339665.png" alt="image-20241111113407472" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241111113407472-173788154339665.png" alt="image-20241111113407472" style="zoom:50%;" />
 
 
 
@@ -2791,13 +2791,13 @@
 <p><strong>交换机类型</strong>：扇形交换机（<strong>将消息广播到消息队列中</strong>），直连交换机（<strong>将消息通过Routing Key路由到消息队列中</strong>），主题交换机（<strong>将消息通过Routing Key模糊匹配的方式路由到消息队列中</strong>）</p>
 <p><strong>高可用：</strong></p>
 <p>1、普通集群 </p>
-<img src="JOB-md.assets/image-20241104133915645-173788154339666.png" alt="image-20241104133915645" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241104133915645-173788154339666.png" alt="image-20241104133915645" style="zoom: 50%;" />
 
 <p>2、镜像集群 </p>
-<img src="JOB-md.assets/image-20241104134129226-173788154339767.png" alt="image-20241104134129226" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241104134129226-173788154339767.png" alt="image-20241104134129226" style="zoom: 50%;" />
 
 <p>3、仲裁队列</p>
-<p><img src="/JOB-md.assets/image-20241104134509105-173788154339768.png" alt="image-20241104134509105"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241104134509105-173788154339768.png" alt="image-20241104134509105"></p>
 <p>##项目</p>
 <p>###Protobuf </p>
 <table>
@@ -2858,16 +2858,16 @@
 <p>2、读写分离、主从复制（查询操作多于写操作，不影响读操作采用读写分离操作）</p>
 <p>二进制日志：DDL语句和DML语句，主库在事务提交时，会把数据变更记录在二进制文件Binlog中</p>
 <p>3、分库分表（海量数据存储、IO瓶颈）</p>
-<img src="JOB-md.assets/image-20241118144922270-173788154339769.png" alt="image-20241118144922270" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241118144922270-173788154339769.png" alt="image-20241118144922270" style="zoom:50%;" />
 
 <p>4、设置数据库隔离级别</p>
 <p>5、增加数据库连接池大小、查看bufferpool命中情况</p>
 <p>业务层面：</p>
 <p><strong>比如查询count，在一张表中耗时，可以考虑做个缓存，在MySQL重新建立一张表存储count的值，在有变化时异步更新count，或者在Redis中做个缓存，会有弱一致性的问题。</strong></p>
 <p>##Nacos</p>
-<h3 id="Nacos和Eureka的区别"><a href="#Nacos和Eureka的区别" class="headerlink" title="Nacos和Eureka的区别"></a>Nacos和Eureka的区别</h3><p><img src="/JOB-md.assets/image-20241030102036801-173788154339770.png" alt="image-20241030102036801"></p>
+<h3 id="Nacos和Eureka的区别"><a href="#Nacos和Eureka的区别" class="headerlink" title="Nacos和Eureka的区别"></a>Nacos和Eureka的区别</h3><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241030102036801-173788154339770.png" alt="image-20241030102036801"></p>
 <p>Nacos：<strong>主动检测非临时实例，检测到不会剔除，心跳检测临时实例</strong></p>
-<p><img src="/JOB-md.assets/image-20241118215705149-173788154339772.png" alt="image-20241118215705149"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241118215705149-173788154339772.png" alt="image-20241118215705149"></p>
 <h2 id="端口"><a href="#端口" class="headerlink" title="端口"></a>端口</h2><p><strong>MySQL：3306</strong></p>
 <p><strong>Redis：6379</strong></p>
 <p><strong>Rabbitmq：5672</strong></p>
@@ -2895,7 +2895,7 @@
 <li>既然每个 Thread 有自己的实例副本，且其它 Thread 不可访问，那就<strong>不存在多线程间共享</strong>的问题。</li>
 </ul>
 <p>ThreadLocal 提供了线程本地的实例。它与普通变量的区别在于，每个使用该变量的线程都会初始化一个完全独立的实例副本。ThreadLocal 变量通常被private static修饰。<strong>当一个线程结束时，它所使用的所有 ThreadLocal 相对的实例副本都可被回收</strong>。</p>
-<p><img src="/JOB-md.assets/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTA0NDUzMDE=,size_16,color_FFFFFF,t_70-173788154339773.png"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/watermark%2Ctype_ZmFuZ3poZW5naGVpdGk%2Cshadow_10%2Ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTA0NDUzMDE%3D%2Csize_16%2Ccolor_FFFFFF%2Ct_70-173788154339773.png"></p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="keyword">static</span> ThreadLocal&lt;String&gt; localVarA = <span class="keyword">new</span> <span class="title class_">ThreadLocal</span>&lt;String&gt;();</span><br><span class="line"><span class="keyword">private</span> <span class="keyword">static</span> ThreadLocal&lt;String&gt; localVarB = <span class="keyword">new</span> <span class="title class_">ThreadLocal</span>&lt;String&gt;();</span><br></pre></td></tr></table></figure>
 
 <p>ThreadLocalMap其实是Thread线程的一个属性值，而ThreadLocal是维护ThreadLocalMap这个属性指的一个工具类。<em>Thread线程可以拥有多个ThreadLocal维护的自己线程独享的共享变量</em>（这个共享变量只是针对自己线程里面共享）。</p>
@@ -2912,7 +2912,7 @@
 <p>3）数据跨层传递（controller,service, dao）</p>
 <p>4）**Spring使用ThreadLocal解决线程安全问题 **（Bean的作用域）</p>
 <hr>
-<p><img src="/JOB-md.assets/image-20240520164954890-173788154339771.png" alt="image-20240520164954890"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240520164954890-173788154339771.png" alt="image-20240520164954890"></p>
 <h2 id="7、ThreadLocal与Synchronized的区别"><a href="#7、ThreadLocal与Synchronized的区别" class="headerlink" title="7、ThreadLocal与Synchronized的区别"></a>7、ThreadLocal与Synchronized的区别</h2><p>ThreadLocal<T>其实是与线程绑定的一个变量。<strong>ThreadLocal和Synchonized都用于解决多线程并发访问。</strong></p>
 <p>但是ThreadLocal与synchronized有本质的区别：</p>
 <p>1、<strong>Synchronized用于线程间的数据共享，而ThreadLocal则用于线程间的数据隔离。</strong></p>
@@ -2937,11 +2937,11 @@
 <li><strong>handler</strong>，拒绝策略，当线程池处于饱和时，使用某种策略来拒绝任务提交</li>
 </ul>
 <p><strong>生命周期流转</strong></p>
-<p><img src="/JOB-md.assets/image-20240328092321582-173788154339774.png" alt="image-20240328092321582"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240328092321582-173788154339774.png" alt="image-20240328092321582"></p>
 <p><strong>执行流程</strong></p>
 <p><img src="/JOB-md.assets/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMDkzMjU1,size_16,color_FFFFFF,t_70#pic_center.png"></p>
 <p>1）如果workerCount &lt; corePoolSize &#x3D;&#x3D;&gt; 创建线程执行提交的任务<br>2）如果workerCount &gt;&#x3D; corePoolSize &amp;&amp; 阻塞队列未满 &#x3D;&#x3D;&gt; 添加至阻塞队列，等待后续线程来执行提交地任务<br>3）如果workerCount &gt;&#x3D; corePoolSize &amp;&amp; workerCount &lt; maxinumPoolSize &amp;&amp; 阻塞队列已满 &#x3D;&#x3D;&gt; 创建非核心线程执行提交的任务<br>4）如果workerCount &gt;&#x3D; maxinumPoolSize &amp;&amp; 阻塞队列已满 &#x3D;&#x3D;&gt; 执行拒绝策略</p>
-<p><img src="/JOB-md.assets/image-20240520145614023-173788154339775.png" alt="image-20240520145614023"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240520145614023-173788154339775.png" alt="image-20240520145614023"></p>
 <p>【建议】不同类型的业务任务尽量使用不同的线程池</p>
 <p><strong>应用场景</strong></p>
 <p>1.网购商品秒杀</p>
@@ -2949,17 +2949,17 @@
 <p>3.12306网上购票系统等</p>
 <p><strong>使用</strong></p>
 <p>只要有并发的地方、任务数量大或小、每个任务执行时间长或短的都可以使用线程池;<br>只不过在使用线程池的时候,注意一下设置合理的线程大小即可;</p>
-<p><img src="/JOB-md.assets/image-20240520150653313-173788154339776.png" alt="image-20240520150653313"></p>
-<p><img src="/JOB-md.assets/image-20240520151118373-173788154339777.png" alt="image-20240520151118373"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240520150653313-173788154339776.png" alt="image-20240520150653313"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240520151118373-173788154339777.png" alt="image-20240520151118373"></p>
 <p>​      <strong>计算密集型的线程恰好在某时因为发生一个页错误或者因其他原因而暂停，刚好有一个“额外”的线程，可以确保在这种情况下CPU周期不会中断工作</strong></p>
 <p>​      <strong>如果任务有50%的时间处于阻塞状态，则程序所需线程数为处理器可用核心数的两倍。如果任务被阻塞的时间少于50%，即这些任务是计算密集型的，则程序所需线程数将随之减少，但最少也不应低于处理器的核心数。如果任务被阻塞的时间大于执行时间，即该任务是IO密集型的，我们就需要创建比处理器核心数大几倍数量的线程。</strong></p>
 <p>现在基本不使用了。</p>
-<p><img src="/JOB-md.assets/image-20240520152115875-173788154339778.png" alt="image-20240520152115875"></p>
-<p><img src="/JOB-md.assets/image-20240520155548456-173788154339779.png" alt="image-20240520155548456"></p>
-<p><img src="/JOB-md.assets/image-20240520160441323-173788154339780.png" alt="image-20240520160441323"></p>
-<p><img src="/JOB-md.assets/image-20240520160858725-173788154339781.png" alt="image-20240520160858725"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240520152115875-173788154339778.png" alt="image-20240520152115875"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240520155548456-173788154339779.png" alt="image-20240520155548456"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240520160441323-173788154339780.png" alt="image-20240520160441323"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240520160858725-173788154339781.png" alt="image-20240520160858725"></p>
 <p>Semaphore：通常<strong>用于那些资源有明确访问数量限制的场景</strong>，常用于限流。</p>
-<p><img src="/JOB-md.assets/image-20240520162149543-173788154339782.png" alt="image-20240520162149543"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240520162149543-173788154339782.png" alt="image-20240520162149543"></p>
 <p>举个例子：</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> javax.swing.tree.TreeNode;</span><br><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.concurrent.Semaphore;</span><br><span class="line"><span class="keyword">import</span> java.util.concurrent.atomic.AtomicInteger;</span><br><span class="line"><span class="keyword">import</span> java.util.concurrent.locks.Lock;</span><br><span class="line"><span class="keyword">import</span> java.util.concurrent.locks.ReentrantLock;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">User</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">Semaphore</span> <span class="variable">semaphore</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Semaphore</span>(<span class="number">1</span>); <span class="comment">// 创建一个具有1个许可的信号量</span></span><br><span class="line">    <span class="keyword">static</span> AtomicInteger t=<span class="keyword">new</span> <span class="title class_">AtomicInteger</span>(<span class="number">1</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Thread</span> <span class="variable">t1</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Thread</span>(() -&gt; print(), <span class="string">&quot;Thread-A&quot;</span>);</span><br><span class="line">        <span class="type">Thread</span> <span class="variable">t2</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Thread</span>(() -&gt; print(), <span class="string">&quot;Thread-B&quot;</span>);</span><br><span class="line">        t1.start();</span><br><span class="line">        t2.start();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">print</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; <span class="number">50</span>; ) &#123;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                semaphore.acquire(); <span class="comment">// 获取一个许可</span></span><br><span class="line">                <span class="type">String</span> <span class="variable">name</span> <span class="operator">=</span> Thread.currentThread().getName();</span><br><span class="line">                <span class="keyword">if</span> ((t.get()%<span class="number">2</span>==<span class="number">1</span> &amp;&amp; name.equals(<span class="string">&quot;Thread-A&quot;</span>)) || (t.get()%<span class="number">2</span>==<span class="number">0</span> &amp;&amp; name.equals(<span class="string">&quot;Thread-B&quot;</span>))) &#123;</span><br><span class="line">                    System.out.println(name+<span class="string">&quot; &quot;</span>+t.get());</span><br><span class="line">                    i++;</span><br><span class="line">                    t.incrementAndGet();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125; <span class="keyword">catch</span> (InterruptedException e) &#123;</span><br><span class="line">                <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">RuntimeException</span>(e);</span><br><span class="line">            &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">                semaphore.release(); <span class="comment">// 释放一个许可</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
@@ -2976,7 +2976,7 @@
 <p>数据库连接池负<strong>责分配、管理和释放数据库连接</strong>，它允许应用程序<strong>重复使用一个现有的数据库连接，而不是重新建立一个。</strong></p>
 <p>数据库连接池在初始化时将创建一定数量的数据库连接放到连接池中，这些数据库连接的数量是由<strong>最小数据库连接数来设定的</strong>。无论这些数据库连接是否被使用，连接池都将一直保证至少拥有这么多的连接数量。连接池的<strong>最大数据库连接数量限定了这个连接池能占有的最大连接数</strong>，当应用程序向连接池请求的连接数超过最大连接数量时，这些请求将被加入到等待队列中。<br>优点：资源重用、更快的系统反应速度、新的资源分配手段、统一的连接管理，避免数据库连接泄露</p>
 <h2 id="10、请你介绍下-JVM-内存模型，分为哪些区域？各区域的作⽤是什么？"><a href="#10、请你介绍下-JVM-内存模型，分为哪些区域？各区域的作⽤是什么？" class="headerlink" title="10、请你介绍下 JVM 内存模型，分为哪些区域？各区域的作⽤是什么？"></a>10、请你介绍下 JVM 内存模型，分为哪些区域？各区域的作⽤是什么？</h2><p>JVM：类加载器+运行时数据区+执行引擎+本地接口库</p>
-<p><img src="/JOB-md.assets/image-20240328102300380-173788154339783.png" alt="image-20240328102300380"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240328102300380-173788154339783.png" alt="image-20240328102300380"></p>
 <p>分<strong>线程共有、线程私有</strong>。</p>
 <ul>
 <li><p>程序计数器：字节码解释器可以改变程序计数器来<strong>读取指令，控制代码</strong>的流程；多线程的话，<strong>能记录线程当前运⾏的位置</strong>（唯⼀⼀个不出现outofmemoryerror的数据区） </p>
@@ -3037,13 +3037,13 @@
 </ul>
 </li>
 </ul>
-<p><img src="/JOB-md.assets/image-20240525142854502-173788154339784.png" alt="image-20240525142854502"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240525142854502-173788154339784.png" alt="image-20240525142854502"></p>
 <p>直接内存：</p>
 <ul>
 <li><p>并不属于JVM中的内存结构，不由JVM进行管理。是<strong>虚拟机</strong>的系统内存</p>
 </li>
 <li><p>常见于 <strong>NIO 操作时，用于数据缓冲区，分配回收成本较高，但读写性能高</strong>，不受 JVM 内存回收管理</p>
-<p><img src="/JOB-md.assets/image-20240525164346760-173788154339785.png" alt="image-20240525164346760"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240525164346760-173788154339785.png" alt="image-20240525164346760"></p>
 </li>
 </ul>
 <h2 id="11、什么是双亲委派模式？有什么作⽤？"><a href="#11、什么是双亲委派模式？有什么作⽤？" class="headerlink" title="11、什么是双亲委派模式？有什么作⽤？"></a>11、什么是双亲委派模式？有什么作⽤？</h2><p>双亲委派保证类加载器，自下而上的委派，又自上而下的加载，保证每一个类在各个类加载器中都是同一个类。</p>
@@ -3057,12 +3057,12 @@
 </ul>
 <hr>
 <p>类加载器：JVM只会运行二进制文件，类加载器的作用就是<strong>将字节码文件加载到JVM</strong>中，从而让Java程序能够启动起来。</p>
-<p><img src="/JOB-md.assets/image-20240525205008161-173788154339786.png" alt="image-20240525205008161"></p>
-<img src="JOB-md.assets/image-20240525205908055-173788154339787.png" alt="image-20240525205908055" style="zoom: 67%;" />
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240525205008161-173788154339786.png" alt="image-20240525205008161"></p>
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240525205908055-173788154339787.png" alt="image-20240525205908055" style="zoom: 67%;" />
 
-<img src="JOB-md.assets/image-20240525210525127-173788154339788.png" alt="image-20240525210525127" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240525210525127-173788154339788.png" alt="image-20240525210525127" style="zoom: 67%;" />
 
-<img src="JOB-md.assets/image-20240525211413640-173788154339789.png" alt="image-20240525211413640" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240525211413640-173788154339789.png" alt="image-20240525211413640" style="zoom:50%;" />
 
 
 
@@ -3072,7 +3072,7 @@
 <p>如果不想打破双亲委派模型，就重写**ClassLoader类中的findClass()**方法即可，无法被父类加载器加载的类最终会通过这个方法被加载。</p>
 <p>由于java中无法直接引用BootstrapClassLoader，所以在初始化TestClassLoader时，传入parent为null，也就是TestClassLoader的父类加载器设置为BootstrapClassLoader。</p>
 <p>双亲委派的逻辑在 <strong>loadClass</strong>，由于现在的类加载器的关系为TestClassLoader —&gt;<strong>BootstrapClassLoader</strong>，所以TestClassLoader中无需重写loadClass。</p>
-<p><img src="/JOB-md.assets/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNjU4NjEyMA==,size_1,color_FFFFFF,t_70#pic_center.png"></p>
+<p><img src="E:\java\blog\source_posts\JOB-md.assets\watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNjU4NjEyMA==,size_1,color_FFFFFF,t_70%23pic_center.png"></p>
 <h2 id="12、常⻅的垃圾回收算法有⼏种类型？他们对应的优缺点是什么？"><a href="#12、常⻅的垃圾回收算法有⼏种类型？他们对应的优缺点是什么？" class="headerlink" title="12、常⻅的垃圾回收算法有⼏种类型？他们对应的优缺点是什么？"></a>12、常⻅的垃圾回收算法有⼏种类型？他们对应的优缺点是什么？</h2><p><strong>什么是垃圾？</strong></p>
 <p>如果一个或多个对象没有任何的引用指向它了，那么这个对象现在就是垃圾，如果定位了垃圾，则有可能会被垃圾回收器回收。</p>
 <p><strong>怎么定位垃圾？</strong></p>
@@ -3112,18 +3112,18 @@
 <p>Tenured： young 区多次回收后存活下来的对象将被移到 tenured 区，也叫 **old **区。 </p>
 <p>Perm：永久<strong>代，主要存储加载的类信息，⽣命周期⻓，⼏乎不会被</strong>回收。</p>
 <p>缺点： 算<strong>法复杂度⼤，执⾏</strong>步骤较多。</p>
-<img src="JOB-md.assets/image-20240525213548925-173788154339790.png" alt="image-20240525213548925" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240525213548925-173788154339790.png" alt="image-20240525213548925" style="zoom: 67%;" />
 
 
 
 <p>垃圾回收器：串行垃圾收集器、并行垃圾收集器、CMS（Concurrent Mark Sweep）(并发)垃圾收集器 、G1垃圾收集器（jdk9之后默认使用G1）</p>
 <p>cms:标记清除；G1：<strong>标记整理算法</strong></p>
-<p><img src="/JOB-md.assets/image-20240525214606516-173788154339791.png" alt="image-20240525214606516"></p>
-<p><img src="/JOB-md.assets/image-20240525221432259-173788154339892.png" alt="image-20240525221432259"></p>
-<p><img src="/JOB-md.assets/image-20240821131230109-173788154339893.png" alt="image-20240821131230109"></p>
-<p><img src="/JOB-md.assets/image-20240821131249121-173788154339894.png" alt="image-20240821131249121"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240525214606516-173788154339791.png" alt="image-20240525214606516"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240525221432259-173788154339892.png" alt="image-20240525221432259"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240821131230109-173788154339893.png" alt="image-20240821131230109"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240821131249121-173788154339894.png" alt="image-20240821131249121"></p>
 <h2 id="引用计数法"><a href="#引用计数法" class="headerlink" title="引用计数法"></a>引用计数法</h2><p>为每个对象维护一个计数器，对象被引用就+1，置为null了就-1，JVM扫描堆内存，发现数值为0则回收</p>
-<p>缺点：<img src="/JOB-md.assets/003bf544beaff7dd4bb99fe82df3282a.png" alt="g"></p>
+<p>缺点：<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/003bf544beaff7dd4bb99fe82df3282a.png"></p>
 <h2 id="可达性分析算法"><a href="#可达性分析算法" class="headerlink" title="可达性分析算法"></a>可达性分析算法</h2><p>普通对象A，经一个引用链可以到达GC Root对象，则A不可被回收</p>
 <p>GC Root对象包括：</p>
 <ul>
@@ -3134,13 +3134,13 @@
 <li><p>监视器对象（引用synchronized锁的对象）</p>
 </li>
 </ul>
-<p><img src="/JOB-md.assets/6bcc0f357efb19532c398ae555a6af61.png"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/6bcc0f357efb19532c398ae555a6af61.png"></p>
 <ul>
 <li>本地方法调用时使用的全局对象</li>
 </ul>
 <p><strong>强、软、弱、虚引用区别</strong></p>
 <p>软\弱引用就是通过SoftReference和WeakReference这两个类来实现定义强弱引用的</p>
-<p><img src="/JOB-md.assets/image-20240525222316561-173788154339895.png" alt="image-20240525222316561"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240525222316561-173788154339895.png" alt="image-20240525222316561"></p>
 <p><a href="https://blog.csdn.net/double222222/article/details/135671320">【JVM】深入理解Java引用类型：强引用、软引用、弱引用和虚引用_java弱引用和虚引用-CSDN博客</a></p>
 <h2 id="13、并发和并⾏有什么区别？同步和异步有什么区别？"><a href="#13、并发和并⾏有什么区别？同步和异步有什么区别？" class="headerlink" title="13、并发和并⾏有什么区别？同步和异步有什么区别？"></a>13、并发和并⾏有什么区别？同步和异步有什么区别？</h2><p><strong>并发</strong>：指多个任务同时在执⾏，但是它们并不是在同⼀时刻执⾏，⽽是通过<strong>快速切换上下⽂来模拟同时执⾏</strong>，优秀的并发可以⽆限逼近并⾏，但⽆法完全做到并⾏。 </p>
 <p>例如，在⼀个 Web 服务器上，多个⽤户访问同⼀个⽹站，服务器会并发地处理这些请求，同时响应每个请求，但是在某⼀时刻只有⼀个请求被处理； </p>
@@ -3180,7 +3180,7 @@
 <p>先创建2个线程的初始上下文，并存入到相应的内存颗粒上。经过内核调度，先让线程一运行，也就是说使用线程一的上下文来设置cpu寄存器，其中eip寄存器让cpu跳转到线程一的方法上运行。这时发生时钟中断，cpu跳转到内核代码，内核将当前代码保存到线程一的内存颗粒上。这时，使用线程二的上下文来设置cpu寄存器，eip寄存器让cpu跳转到线程二的方法上运行。</p>
 <hr>
 <p>线程通常有五种状态：<strong>创建，就绪，运⾏、阻塞和死亡状态</strong>。</p>
-<p><img src="/JOB-md.assets/image-20240328110106604-173788154339897.png" alt="image-20240328110106604"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240328110106604-173788154339897.png" alt="image-20240328110106604"></p>
 <p>新建状态（New）：新创建了⼀个线程对象。 </p>
 <p>就绪状态（Runnable）：线程对象创建后，其他线程调⽤了该对象的start⽅法。该状态的线程位于可运⾏线程池中，变得可运⾏，等待获取 CPU 的使⽤权。 </p>
 <p>运⾏状态（Running）：就绪状态的线程获取了 CPU，执⾏程序代码。</p>
@@ -3192,19 +3192,19 @@
 <li><strong>同步阻塞</strong>：<strong>运行的线程在获取对象的同步锁时，若该同步锁被别的线程占⽤，则 JVM 会把该线程放⼊“锁池” 中</strong>。</li>
 <li><strong>其他阻塞</strong>：运⾏的线程执⾏<strong>sleep 或 join ⽅法，或者发出了 I&#x2F;O 请求时，JVM 会把该线程置为阻塞状态</strong>。当 sleep 状态超时、join 等待线程终⽌或者超时、或者 I&#x2F;O 处理完毕时，线程重新转⼊就绪状态。sleep 是 Thread 类 的⽅法。</li>
 </ul>
-<h2 id="15、线程"><a href="#15、线程" class="headerlink" title="15、线程"></a>15、线程</h2><p><img src="/JOB-md.assets/image-20240517210758181-173788154339898.png" alt="image-20240517210758181"></p>
-<p><img src="/JOB-md.assets/image-20240517210918749-173788154339899.png" alt="image-20240517210918749"></p>
-<p><img src="/JOB-md.assets/image-20240517210940223-1737881543398100.png" alt="image-20240517210940223"></p>
+<h2 id="15、线程"><a href="#15、线程" class="headerlink" title="15、线程"></a>15、线程</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240517210758181-173788154339898.png" alt="image-20240517210758181"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240517210918749-173788154339899.png" alt="image-20240517210918749"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240517210940223-1737881543398100.png" alt="image-20240517210940223"></p>
 <p>线程退出：</p>
 <p>1.打标记，volatile(读写屏障，先读（阻止下方其他读操作越过屏障排到volatile变量读之上）后写（阻止上方其他写操作越过屏障排到voltile变量之下），防止指令重排序)</p>
-<p><img src="/JOB-md.assets/image-20240605150440979-1737881543398101.png" alt="image-20240605150440979"></p>
-<img src="JOB-md.assets/image-20240605150632252-1737881543398103.png" alt="image-20240605150632252" style="zoom: 67%;" />
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240605150440979-1737881543398101.png" alt="image-20240605150440979"></p>
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240605150632252-1737881543398103.png" alt="image-20240605150632252" style="zoom: 67%;" />
 
-<p><img src="/JOB-md.assets/image-20240605150736445-1737881543398102.png" alt="image-20240605150736445"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240605150736445-1737881543398102.png" alt="image-20240605150736445"></p>
 <p>2.interrupted</p>
 <hr>
-<p><img src="/JOB-md.assets/image-20240520082322562-1737881543398104.png" alt="image-20240520082322562"></p>
-<p><img src="/JOB-md.assets/image-20240520084640535-1737881543398105.png" alt="image-20240520084640535"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240520082322562-1737881543398104.png" alt="image-20240520082322562"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240520084640535-1737881543398105.png" alt="image-20240520084640535"></p>
 <p>死锁产生的四个必要条件是：</p>
 <ol>
 <li><strong>互斥条件（Mutual Exclusion）</strong>：资源不能被多个线程同时占有。任何时候，一个资源只能被一个线程持有。</li>
@@ -3213,9 +3213,9 @@
 <li><strong>循环等待条件（Circular Wait）</strong>：存在一个线程集合，每个线程都在等待下一个线程所持有的资源，形成一个循环等待链。</li>
 </ol>
 <p>只有当这四个条件同时满足时，死锁才会发生。为了预防死锁，必须至少破坏其中一个条件。</p>
-<p><img src="/JOB-md.assets/image-20240520085808390-1737881543398106.png" alt="image-20240520085808390"></p>
-<p><img src="/JOB-md.assets/image-20240520091121176-1737881543398107.png" alt="image-20240520091121176"></p>
-<p><img src="/JOB-md.assets/image-20240520092042093-1737881543398108.png" alt="image-20240520092042093"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240520085808390-1737881543398106.png" alt="image-20240520085808390"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240520091121176-1737881543398107.png" alt="image-20240520091121176"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240520092042093-1737881543398108.png" alt="image-20240520092042093"></p>
 <h2 id="16、synchronized-关键字是什么，有什么作⽤？"><a href="#16、synchronized-关键字是什么，有什么作⽤？" class="headerlink" title="16、synchronized 关键字是什么，有什么作⽤？"></a>16、synchronized 关键字是什么，有什么作⽤？</h2><p>synchronized 是 Java 中的⼀个关键字，⽤来实现<strong>同步锁</strong>。 </p>
 <p>它可以修饰<strong>⽅法或代码块，保证同⼀时刻只有⼀个线程可以执⾏被修饰的部分</strong> </p>
 <p>synchronized 的作⽤有以下⼏点： </p>
@@ -3242,8 +3242,8 @@
 <li>缺点：不灵活，不能设置超时时间、中断等；效率低，每次都要进⼊内核态获取锁；不可重⼊，同⼀个线程在获取到锁后还要再次获取锁会造成死锁</li>
 </ul>
 <hr>
-<p><img src="/JOB-md.assets/image-20240518080509328-1737881543398109.png" alt="image-20240518080509328"></p>
-<p><img src="/JOB-md.assets/image-20240518081939770-1737881543398110.png" alt="image-20240518081939770"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240518080509328-1737881543398109.png" alt="image-20240518080509328"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240518081939770-1737881543398110.png" alt="image-20240518081939770"></p>
 <p>###synchronized的锁升级过程？</p>
 <p>无锁–》偏向锁–》轻量级锁–》重量级锁</p>
 <p>偏向锁：</p>
@@ -3251,11 +3251,11 @@
 <p>中间态：自旋锁：默认自旋10次，JVM会认为自旋获得锁的线程，会增加自旋的时间</p>
 <p>锁消除：不存在竞争情况下，会进行synchronized的消除</p>
 <p>锁粗化：JVM会探测到一连串细小的操作都使用同一对象加锁，将同步代码块的范围放大，放到这串操作的外面，只需加一次锁即可</p>
-<p><img src="/JOB-md.assets/image-20240518083110814-1737881543398111.png" alt="image-20240518083110814"></p>
-<p><img src="/JOB-md.assets/image-20240518083929983-1737881543398112.png" alt="image-20240518083929983"></p>
-<p><img src="/JOB-md.assets/image-20240518090150780-1737881543398113.png" alt="image-20240518090150780"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240518083110814-1737881543398111.png" alt="image-20240518083110814"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240518083929983-1737881543398112.png" alt="image-20240518083929983"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240518090150780-1737881543398113.png" alt="image-20240518090150780"></p>
 <p>AQS（AbstractQueuedSynchronizer，抽象队列同步器），构建锁或者其他同步组件的基础框架。</p>
-<p><img src="/JOB-md.assets/image-20240518091126044-1737881543398114.png" alt="image-20240518091126044"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240518091126044-1737881543398114.png" alt="image-20240518091126044"></p>
 <p>上述队列是双向链表的。</p>
 <p>举例：</p>
 <p>Lock接口实现类ReentrantLock（源码）</p>
@@ -3291,7 +3291,7 @@
 <p>​	当需要⽣产新的产品时，⽆需更改既有的⼯⼚，只需要添加新的⼯⼚即可。保持了⾯向对象的可扩展性(纵向，横向都很不错)，符合开闭原则。 </p>
 <p>​	因此，⼯⼚⽅法模式适⽤于对象多⽽且可能增加的场景</p>
 <p>举例：</p>
-<p><img src="/JOB-md.assets/image-20240903120657525-1737881543398115.png" alt="image-20240903120657525"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240903120657525-1737881543398115.png" alt="image-20240903120657525"></p>
 <p><strong>抽象⼯⼚模式</strong> （ 抽象接⼝⼯⼚实现 ）</p>
 <p>​	抽象⼯⼚是定义了⼀个接⼝，然后由具体⼯⼚去实现抽象⽅法，突出特点就是运⽤了多态，耦合够松。 </p>
 <p>​	缺点也很明显，在接⼝不变的情况下，⽆论是横向拓展性还是松耦合都很好，但是⼀旦接⼝有新的功能增加， 所有的⼯⼚实现都需要纵向拓展。即横向拓展能⼒强，但是纵向拓展能⼒&#x3D;0 </p>
@@ -3315,44 +3315,44 @@
 </li>
 </ol>
 <p>单例模式在开发中有许多适⽤的场景，如：</p>
-<p><img src="/JOB-md.assets/image-20240514101608541-1737881543398116.png" alt="image-20240514101608541"></p>
-<p><img src="/JOB-md.assets/image-20240514101619111-1737881543398117.png" alt="image-20240514101619111"></p>
-<p><img src="/JOB-md.assets/image-20240514101632919-1737881543398118.png" alt="image-20240514101632919"></p>
-<h2 id="21、JVM实践"><a href="#21、JVM实践" class="headerlink" title="21、JVM实践"></a>21、JVM实践</h2><p><img src="/JOB-md.assets/image-20240526085749985-1737881543398119.png" alt="image-20240526085749985"></p>
-<p><img src="/JOB-md.assets/image-20240526091115059-1737881543398120.png" alt="image-20240526091115059"></p>
-<p><img src="/JOB-md.assets/image-20240526091142500-1737881543398121.png" alt=" "></p>
-<img src="JOB-md.assets/image-20241024100646569-1737881543398122.png" alt="image-20241024100646569" style="zoom: 67%;" />
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240514101608541-1737881543398116.png" alt="image-20240514101608541"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240514101619111-1737881543398117.png" alt="image-20240514101619111"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240514101632919-1737881543398118.png" alt="image-20240514101632919"></p>
+<h2 id="21、JVM实践"><a href="#21、JVM实践" class="headerlink" title="21、JVM实践"></a>21、JVM实践</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240526085749985-1737881543398119.png" alt="image-20240526085749985"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240526091115059-1737881543398120.png" alt="image-20240526091115059"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240526091142500-1737881543398121.png" alt=" "></p>
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241024100646569-1737881543398122.png" alt="image-20241024100646569" style="zoom: 67%;" />
 
 
 
-<img src="JOB-md.assets/image-20240526093420155-1737881543398123.png" alt="image-20240526093420155" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240526093420155-1737881543398123.png" alt="image-20240526093420155" style="zoom: 67%;" />
 
 
 
-<img src="JOB-md.assets/image-20240526094046837-1737881543398124.png" alt="image-20240526094046837"  />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240526094046837-1737881543398124.png" alt="image-20240526094046837"  />
 
 
 
-<p><img src="/JOB-md.assets/image-20240526094648969-1737881543398126.png" alt="image-20240526094648969"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240526094648969-1737881543398126.png" alt="image-20240526094648969"></p>
 <p>对应Linux命令：</p>
 <p><strong>top：</strong>展示所有的进程，查看那个进程占用CPU过高</p>
-<p><img src="/JOB-md.assets/image-20240526094829790-1737881543398125.png" alt="image-20240526094829790"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240526094829790-1737881543398125.png" alt="image-20240526094829790"></p>
 <p><strong>ps：</strong>查看当前进程下那个线程占用CPU过高</p>
-<p><img src="/JOB-md.assets/image-20240526094917659-1737881543398127.png" alt="image-20240526094917659"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240526094917659-1737881543398127.png" alt="image-20240526094917659"></p>
 <p><strong>printf：</strong>将当前过高的线程ID转十六进制</p>
-<p><img src="/JOB-md.assets/image-20240526095023812-1737881543398128.png" alt="image-20240526095023812"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240526095023812-1737881543398128.png" alt="image-20240526095023812"></p>
 <p><strong>jstack:</strong> 查看当前进程下所有线程的日志，与十六进制对应的线程ID查看报错信息</p>
-<p><img src="/JOB-md.assets/image-20240526094959596-1737881543398129.png" alt="image-20240526094959596"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240526094959596-1737881543398129.png" alt="image-20240526094959596"></p>
 <p>在日志中找当前线程对应的信息</p>
 <p>##22、String, StringBuffer and StringBuilder</p>
 <p>1）可变性</p>
-<pre><code>    String是不可变的，只读字符串，即String引用的字符串内容是不能被改变的。
-    StringBuilder和StringBuffer都继承自AbstractStringBuilder类（提供了很多修改字符串的方法比如append），所以StringBuffer和StringBuilder表示的字符串对象可以直接进行修改。
-</code></pre>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">String是不可变的，只读字符串，即String引用的字符串内容是不能被改变的。</span><br><span class="line">StringBuilder和StringBuffer都继承自AbstractStringBuilder类（提供了很多修改字符串的方法比如append），所以StringBuffer和StringBuilder表示的字符串对象可以直接进行修改。</span><br></pre></td></tr></table></figure>
+
 <p>2）线程安全性</p>
-<pre><code>    String中的对象是不可变的，可理解为常量，线程安全。StringBuffer对方法加了同步锁（synchronized）或者对调用的方法加了同步锁，所以线程安全。StringBuilder没有对方法进行加同步锁，所以是非线程安全。
-</code></pre>
-<h2 id="23、非受检异常和受检异常"><a href="#23、非受检异常和受检异常" class="headerlink" title="23、非受检异常和受检异常"></a>23、非受检异常和受检异常</h2><p><img src="/JOB-md.assets/java-basic-exception-1.png"></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">String中的对象是不可变的，可理解为常量，线程安全。StringBuffer对方法加了同步锁（<span class="keyword">synchronized</span>）或者对调用的方法加了同步锁，所以线程安全。StringBuilder没有对方法进行加同步锁，所以是非线程安全。</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="23、非受检异常和受检异常"><a href="#23、非受检异常和受检异常" class="headerlink" title="23、非受检异常和受检异常"></a>23、非受检异常和受检异常</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/java-basic-exception-1.png"></p>
 <ul>
 <li><strong>可查异常</strong>（编译器要求必须处置的异常）：</li>
 </ul>
@@ -3413,10 +3413,10 @@
 <td></td>
 </tr>
 </tbody></table>
-<p><img src="/JOB-md.assets/image-20241021112740635-1737881543398130.png" alt="image-20241021112740635"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241021112740635-1737881543398130.png" alt="image-20241021112740635"></p>
 <p>自动找到所有的配置类用到的注解是@SpringbootApplication,。。。。，<strong>将加载的配置类进行解析处理，并将得到BeanDefinition注册到已经创建好的IOC容器</strong>中，最后启动web服务器。</p>
 <p><strong>AutoConfigurationImportSelector.class中有个获取配置类的方法，主要使用到SpringFactories 机制，类似于Java的SPI机制，它的核心逻辑是从 classpath 中读取到所有 Jar 包中的配置文件 META-IF&#x2F;spring.factories然后根据指定的 key 从配置文件中解析出对应的 value 值，多个value值用逗号隔开，这里使用的Key是EnableAutoConfiguration的全限定类名，最后根据注解@conditional注解过滤掉不必要的自动配置类</strong></p>
-<p><img src="/JOB-md.assets/image-20241021162118472-1737881543398131.png" alt="image-20241021162118472"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241021162118472-1737881543398131.png" alt="image-20241021162118472"></p>
 <p>###自定义一个SpringBoot的自动化配置</p>
 <p><img src="/JOB-md.assets/image-20241021212516181-1737881543398132.png" alt="image-20241021212516181"></p>
 <p>第一步：<strong>在项目下，将你的配置类写好，将要使用的Service注册到spring容器中，可以使用@Bean注解修饰</strong></p>
@@ -3513,7 +3513,7 @@
 
 
 
-<h1 id="计算机基础"><a href="#计算机基础" class="headerlink" title="计算机基础"></a>计算机基础</h1><h2 id="计网"><a href="#计网" class="headerlink" title="计网"></a>计网</h2><h2 id="1、简述计算机⽹络七层模型和各⾃的作⽤？"><a href="#1、简述计算机⽹络七层模型和各⾃的作⽤？" class="headerlink" title="1、简述计算机⽹络七层模型和各⾃的作⽤？"></a>1、<font color=red>简述计算机⽹络七层模型和各⾃的作⽤？</font></h2><p><img src="/JOB-md.assets/image-20240329195126026-1737881543398133.png" alt="image-20240329195126026"></p>
+<h1 id="计算机基础"><a href="#计算机基础" class="headerlink" title="计算机基础"></a>计算机基础</h1><h2 id="计网"><a href="#计网" class="headerlink" title="计网"></a>计网</h2><h2 id="1、简述计算机⽹络七层模型和各⾃的作⽤？"><a href="#1、简述计算机⽹络七层模型和各⾃的作⽤？" class="headerlink" title="1、简述计算机⽹络七层模型和各⾃的作⽤？"></a>1、<font color=red>简述计算机⽹络七层模型和各⾃的作⽤？</font></h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329195126026-1737881543398133.png" alt="image-20240329195126026"></p>
 <p>每⼀层都专注做⼀件事情，并且每⼀层都需要使⽤下⼀层提供的功能⽐如传输层需要使⽤⽹络层提供的路由和寻址功能，这样传输层才知道把数据传输到哪⾥去。</p>
 <table>
 <thead>
@@ -3567,17 +3567,17 @@
 <td><strong>HTTP&#x2F;HTTPS、FTP、SMTP、POP3&#x2F;IMAP、DNS、Telnet、SNMP</strong></td>
 </tr>
 </tbody></table>
-<h2 id="2、HTTP-是哪⼀层的协议？简述它的作⽤？"><a href="#2、HTTP-是哪⼀层的协议？简述它的作⽤？" class="headerlink" title="2、HTTP 是哪⼀层的协议？简述它的作⽤？"></a>2、HTTP 是哪⼀层的协议？简述它的作⽤？</h2><p><img src="/JOB-md.assets/image-20240329195044247-1737881543398134.png" alt="image-20240329195044247"></p>
-<h2 id="3、HTTP-有哪些常⻅的状态码？"><a href="#3、HTTP-有哪些常⻅的状态码？" class="headerlink" title="3、HTTP 有哪些常⻅的状态码？"></a>3、HTTP 有哪些常⻅的状态码？</h2><p><img src="/JOB-md.assets/image-20240329192913926-1737881543398135.png" alt="image-20240329192913926"></p>
-<p><img src="/JOB-md.assets/image-20240329192950268-1737881543398136.png" alt="image-20240329192950268"></p>
+<h2 id="2、HTTP-是哪⼀层的协议？简述它的作⽤？"><a href="#2、HTTP-是哪⼀层的协议？简述它的作⽤？" class="headerlink" title="2、HTTP 是哪⼀层的协议？简述它的作⽤？"></a>2、HTTP 是哪⼀层的协议？简述它的作⽤？</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329195044247-1737881543398134.png" alt="image-20240329195044247"></p>
+<h2 id="3、HTTP-有哪些常⻅的状态码？"><a href="#3、HTTP-有哪些常⻅的状态码？" class="headerlink" title="3、HTTP 有哪些常⻅的状态码？"></a>3、HTTP 有哪些常⻅的状态码？</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329192913926-1737881543398135.png" alt="image-20240329192913926"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329192950268-1737881543398136.png" alt="image-20240329192950268"></p>
 <h2 id="4、TCP-和-UDP-协议有什么区别，分别适⽤于什么场景"><a href="#4、TCP-和-UDP-协议有什么区别，分别适⽤于什么场景" class="headerlink" title="4、TCP 和 UDP 协议有什么区别，分别适⽤于什么场景"></a>4、TCP 和 UDP 协议有什么区别，分别适⽤于什么场景</h2><p>TCP 和 UDP 是计算机⽹络中两种常⽤的传输层协议，⽤于实现可靠传输和⽆连接传输。 </p>
 <p>TCP（Transmission Control Protocol）是⼀种<strong>⾯向连接的、可靠的传输协议</strong>。它通过<strong>三次握⼿四次挥⼿</strong>进⾏连接和断开链接，保证数据的<strong>可靠性、完整性和顺序性</strong>，具有较⾼的传输效率。 TCP 协议适⽤于<strong>要求可靠传输的场景，如⽂件传输、电⼦邮件传输</strong>等。 </p>
-<p><img src="/JOB-md.assets/image-20240529101256710-1737881543398137.png" alt="image-20240529101256710"></p>
-<p><img src="/JOB-md.assets/image-20240529101310559-1737881543399138.png" alt="image-20240529101310559"></p>
-<p><img src="/JOB-md.assets/image-20240529101332319-1737881543399139.png" alt="image-20240529101332319"></p>
-<p><img src="/JOB-md.assets/image-20240529101346558-1737881543399140.png" alt="image-20240529101346558"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240529101256710-1737881543398137.png" alt="image-20240529101256710"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240529101310559-1737881543399138.png" alt="image-20240529101310559"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240529101332319-1737881543399139.png" alt="image-20240529101332319"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240529101346558-1737881543399140.png" alt="image-20240529101346558"></p>
 <p>##5、HTTP 协议中 GET 和 POST 有什么区别？分别适⽤于什么场景？</p>
-<p><img src="/JOB-md.assets/image-20240329170211065-1737881543399141.png" alt="image-20240329170211065"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329170211065-1737881543399141.png" alt="image-20240329170211065"></p>
 <p><strong>GET 和 POST 之所以产⽣区别，是因为浏览器&#x2F;服务器的限制</strong>。</p>
 <h2 id="6、简述-TCP-三次握手、四次挥手的流程？为什么需要三次握手？为什么需要四次挥手"><a href="#6、简述-TCP-三次握手、四次挥手的流程？为什么需要三次握手？为什么需要四次挥手" class="headerlink" title="6、简述 TCP 三次握手、四次挥手的流程？为什么需要三次握手？为什么需要四次挥手"></a>6、简述 TCP 三次握手、四次挥手的流程？为什么需要三次握手？为什么需要四次挥手</h2><p><strong>TCP（Transmission Control Protocol）是⼀种⾯向连接的协议，为了保证数据传输的可靠性，TCP 使⽤了三次握⼿和四次挥⼿的过程。</strong></p>
 <p>三次握⼿的过程如下：</p>
@@ -3586,7 +3586,7 @@
 <li>第⼆次握⼿：服务器收到客户端的 SYN 报⽂，向客户端发送 SYN+ACK 报⽂，表示可以建⽴连接。 </li>
 <li>第三次握⼿：客户端收到服务器的 SYN+ACK 报⽂，向服务器发送 ACK 报⽂，表示连接已经建⽴。</li>
 </ol>
-<p><img src="/JOB-md.assets/image-20240329193253075-1737881543399142.png" alt="image-20240329193253075"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329193253075-1737881543399142.png" alt="image-20240329193253075"></p>
 <p><strong>为什么需要三次握⼿？</strong></p>
 <p>三次握⼿的⽬的是为了确认双⽅的收发能⼒和同步初始序列号。</p>
 <p><strong>四次挥⼿的过程如下：</strong></p>
@@ -3594,7 +3594,7 @@
 <p>第⼆次挥⼿：服务器收到客户端的 FIN 报⽂，向客户端发送 ACK 报⽂，表示收到关闭请求。 </p>
 <p>第三次挥⼿：服务器向客户端发送 FIN 报⽂，请求关闭连接。 </p>
 <p>第四次挥⼿：客户端收到服务器的 FIN 报⽂，向服务器发送 ACK 报⽂，表示收到关闭请求。</p>
-<p><img src="/JOB-md.assets/image-20240329193414899-1737881543399143.png" alt="image-20240329193414899"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329193414899-1737881543399143.png" alt="image-20240329193414899"></p>
 <p><strong>为什么需要四次挥⼿？</strong></p>
 <p>四次挥⼿的⽬<strong>的是为了保证数据的完整性和可靠性</strong>。在关闭连接之前，双⽅需要确保所有数据都已经传输完毕，因此需要通过四次挥⼿的过程进⾏确认和处理。</p>
 <p><strong>总结：三次握⼿的本质是确认通信双⽅收发数据的能⼒ ，四次挥⼿的⽬的是关闭⼀个连接。</strong></p>
@@ -3678,7 +3678,7 @@
 </li>
 </ol>
 <hr>
-<p><img src="/JOB-md.assets/image-20241201172706205-1737881543399145.png" alt="image-20241201172706205"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241201172706205-1737881543399145.png" alt="image-20241201172706205"></p>
 <h2 id="11、HTTP和TCP的联系是什么"><a href="#11、HTTP和TCP的联系是什么" class="headerlink" title="11、HTTP和TCP的联系是什么"></a>11、HTTP和TCP的联系是什么</h2><ol>
 <li><strong>TCP</strong>：<ul>
 <li>TCP 是一种传输层协议，负责在网络中的两个端点之间建立可靠的、有序的、无重复的数据传输。</li>
@@ -3699,12 +3699,12 @@
 <p>##13、数据库结构</p>
 <p> <a href="https://www.bilibili.com/video/BV1Kg411z7RS?spm_id_from=333.788.videopod.sections&vd_source=03235a8277a4e1950048927a7c975e38">https://www.bilibili.com/video/BV1Kg411z7RS?spm_id_from=333.788.videopod.sections&amp;vd_source=03235a8277a4e1950048927a7c975e38</a></p>
 <p>数据执行原理</p>
-<img src="JOB-md.assets/image-20240902164849712-1737881543399146.png" alt="image-20240902164849712" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240902164849712-1737881543399146.png" alt="image-20240902164849712" style="zoom: 67%;" />
 
 
 
 <p>SQL执行原理：</p>
-<p><img src="/JOB-md.assets/image-20240902180151733-1737881543399147.png" alt="image-20240902180151733"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240902180151733-1737881543399147.png" alt="image-20240902180151733"></p>
 <p>创建索引：</p>
 <p><a href="https://blog.csdn.net/weixin_62336297/article/details/125963674?ops_request_misc=%7B%22request_id%22:%22D1FAF342-AF31-4E9D-B986-37A972059358%22,%22scm%22:%2220140713.130102334..%22%7D&request_id=D1FAF342-AF31-4E9D-B986-37A972059358&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-125963674-null-null.142%5Ev100%5Epc_search_result_base2&utm_term=%E5%88%9B%E5%BB%BA%E7%B4%A2%E5%BC%95&spm=1018.2226.3001.4187">【创建索引的三种方式】-CSDN博客</a></p>
 <p>区别：</p>
@@ -3713,17 +3713,17 @@
 <li><code>UNIQUE KEY</code> 允许列上有 <code>NULL</code> 值，而 <code>UNIQUE</code> 约束通常不允许列上有 <code>NULL</code> 值。</li>
 <li>在某些数据库系统中（如 MySQL），<code>UNIQUE KEY</code> 可以在创建表时与 <code>PRIMARY KEY</code> 一起使用，而 <code>UNIQUE</code> 约束不能。</li>
 </ul>
-<h2 id="14、DNS解析"><a href="#14、DNS解析" class="headerlink" title="14、DNS解析"></a>14、DNS解析</h2><p><img src="/JOB-md.assets/image-20240909155303215-1737881543399148.png" alt="image-20240909155303215"></p>
+<h2 id="14、DNS解析"><a href="#14、DNS解析" class="headerlink" title="14、DNS解析"></a>14、DNS解析</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240909155303215-1737881543399148.png" alt="image-20240909155303215"></p>
 <p><a href="https://www.bilibili.com/video/BV1uL4y1B7aE/?spm_id_from=333.788&vd_source=03235a8277a4e1950048927a7c975e38">DNS域名解析过程_哔哩哔哩_bilibili</a></p>
-<h2 id="15、UDP的多播和广播"><a href="#15、UDP的多播和广播" class="headerlink" title="15、UDP的多播和广播"></a>15、UDP的多播和广播</h2><img src="JOB-md.assets/image-20240909222306025-1737881543399149.png" alt="image-20240909222306025" style="zoom:67%;" />
+<h2 id="15、UDP的多播和广播"><a href="#15、UDP的多播和广播" class="headerlink" title="15、UDP的多播和广播"></a>15、UDP的多播和广播</h2><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240909222306025-1737881543399149.png" alt="image-20240909222306025" style="zoom:67%;" />
 
 
 
-<img src="JOB-md.assets/image-20240909222330163-1737881543399150.png" alt="image-20240909222330163" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240909222330163-1737881543399150.png" alt="image-20240909222330163" style="zoom:67%;" />
 
 
 
-<img src="JOB-md.assets/image-20240909222419620-1737881543399151.png" alt="image-20240909222419620" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240909222419620-1737881543399151.png" alt="image-20240909222419620" style="zoom:67%;" />
 
 
 
@@ -3761,7 +3761,7 @@
 </ol>
 <p>尽管有上述优点，但在处理大量并发连接时，阻塞I&#x2F;O模型的缺点也相当明显，比如线程资源的大量消耗、无法有效利用CPU资源等。因此，在需要高并发处理的应用中，多路复用I&#x2F;O通常是更优的选择。然而，对于一些简单的应用或者那些不需要处理大量并发连接的服务，阻塞I&#x2F;O仍然是一个有效的解决方案。</p>
 <p>##17、TCP</p>
-<img src="JOB-md.assets/3-1737881543399152.jpg" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/3-1737881543399152.jpg" style="zoom: 67%;" />
 
 <p><a href="https://xiaolincoding.com/network/3_tcp/tcp_feature.html#sack-%E6%96%B9%E6%B3%95">https://xiaolincoding.com/network/3_tcp/tcp_feature.html#sack-%E6%96%B9%E6%B3%95</a></p>
 <p>重传机制：防止丢包</p>
@@ -3780,28 +3780,28 @@
 <li><strong>快速恢复</strong></li>
 </ul>
 <p>1、一个ACK，增加1</p>
-<img src="JOB-md.assets/27-1737881543399153.jpg" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/27-1737881543399153.jpg" style="zoom:50%;" />
 
 <p>可以看出慢启动算法，发包的个数是<strong>指数性的增长</strong>。</p>
 <p>2、当 <code>cwnd</code> &gt;&#x3D; <code>ssthresh</code>（65536） 时，就会使用「拥塞避免算法」。一个ACK，增加一个拥塞窗口大小分之一</p>
-<img src="JOB-md.assets/28-1737881543399154.jpg" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/28-1737881543399154.jpg" style="zoom:50%;" />
 
 <p>3、当触发了重传机制，也就进入了「拥塞发生算法」。出现丢包，重传</p>
 <p>​	1、超时重传</p>
-<p>​		<img src="JOB-md.assets/29-1737881543399155.jpg" style="zoom:50%;" /></p>
+<p>​		<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/29-1737881543399155.jpg" style="zoom:50%;" /></p>
 <p>​	2、快速重传</p>
-<p>​	<img src="/JOB-md.assets/image-20241201221614358-1737881543399156.png" alt="image-20241201221614358"></p>
+<p>​	<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241201221614358-1737881543399156.png" alt="image-20241201221614358"></p>
 <p>4、快速恢复</p>
 <p>快速重传和快速恢复算法一般同时使用，快速恢复算法是认为，你还能收到3个重复 ACK 说明网络也不那么糟糕，所以没有必要像 RTO 超时那么强烈。</p>
 <p>正如前面所说，进入快速恢复之前，Cwnd和ssthresh已被更新了:</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line">cwnd = cwnd/<span class="number">2</span>     <span class="comment">//也就是设置为原来的一半;</span></span><br><span class="line">ssthresh = cwnd</span><br></pre></td></tr></table></figure>
 
-<img src="JOB-md.assets/拥塞发生-快速重传.drawio-1737881543399157.png" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/%E6%8B%A5%E5%A1%9E%E5%8F%91%E7%94%9F-%E5%BF%AB%E9%80%9F%E9%87%8D%E4%BC%A0.drawio-1737881543399157.png" style="zoom:50%;" />
 
 
 
-<h1 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h1><h2 id="1、什么是进程和线程？它们有哪些区别和联系？"><a href="#1、什么是进程和线程？它们有哪些区别和联系？" class="headerlink" title="1、什么是进程和线程？它们有哪些区别和联系？"></a>1、什么是进程和线程？它们有哪些区别和联系？</h2><p><img src="/JOB-md.assets/image-20240329202141880-1737881543399158.png" alt="image-20240329202141880"></p>
-<p><img src="/JOB-md.assets/image-20240516225341937-1737881543399159.png" alt="image-20240516225341937"></p>
+<h1 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h1><h2 id="1、什么是进程和线程？它们有哪些区别和联系？"><a href="#1、什么是进程和线程？它们有哪些区别和联系？" class="headerlink" title="1、什么是进程和线程？它们有哪些区别和联系？"></a>1、什么是进程和线程？它们有哪些区别和联系？</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329202141880-1737881543399158.png" alt="image-20240329202141880"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240516225341937-1737881543399159.png" alt="image-20240516225341937"></p>
 <h2 id="2、死锁是什么？如何预防和避免死锁？"><a href="#2、死锁是什么？如何预防和避免死锁？" class="headerlink" title="2、死锁是什么？如何预防和避免死锁？"></a>2、死锁是什么？如何预防和避免死锁？</h2><p><strong>死锁是什么？</strong></p>
 <p>多线程编程中，当两个线程为了保护两个不同的共享资源⽽使⽤了两个互斥锁，如果应⽤不当，会造成两个线程都在等待对⽅释放锁，没有外⼒的作⽤下，这些线程会⼀直互相等待，就没办法继续运⾏，这就是发⽣了死锁。</p>
 <p><strong>如何预防和避免死锁？</strong></p>
@@ -3841,9 +3841,9 @@
 <p><strong>上面是Mmap方式，sendfile方式在此基础上减少了两次上下文切换，直接从内核缓冲区拷贝到socket缓冲区。</strong></p>
 <p>零拷⻉（Zero-Copy）是⼀种⾼效的数据传输技术，它可以将数据从内核空间直接传输到应⽤程序的内存空间中， 避免了不必要的数据拷⻉，从⽽提⾼了数据传输的效率和性能。</p>
 <p><strong>传统IO：</strong></p>
-<p><img src="/JOB-md.assets/image-20240329203213572-1737881543400160.png" alt="image-20240329203213572"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329203213572-1737881543400160.png" alt="image-20240329203213572"></p>
 <p><strong>零拷⻉：</strong></p>
-<p><img src="/JOB-md.assets/image-20240329203237084-1737881543400162.png" alt="image-20240329203237084"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329203237084-1737881543400162.png" alt="image-20240329203237084"></p>
 <ol>
 <li>java 调⽤ transferTo ⽅法后，要从 java 程序的⽤户态切换⾄内核态，使⽤ DMA 将数据读⼊内核缓冲区，不会使⽤ cpu </li>
 <li>只会将⼀些 offset 和 length 信息拷⼊ socket 缓冲区，⼏乎⽆消耗 </li>
@@ -3854,9 +3854,9 @@
 <li>**更少的⽤户态与内核态的切换 **</li>
 <li>**不利⽤ cpu 计算，减少 cpu 缓存伪共享 **</li>
 <li><strong>零拷⻉适合⼩⽂件传输</strong></li>
-<li><img src="/JOB-md.assets/image-20240621220313633-1737881543400161.png" alt="image-20240621220313633"></li>
+<li><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240621220313633-1737881543400161.png" alt="image-20240621220313633"></li>
 </ul>
-<p><img src="/JOB-md.assets/image-20240621220634318-1737881543400163.png" alt="image-20240621220634318"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240621220634318-1737881543400163.png" alt="image-20240621220634318"></p>
 <p>#Linux</p>
 <h2 id="1、Linux-中的硬链接和软连接是什么，⼆者有什么区别？"><a href="#1、Linux-中的硬链接和软连接是什么，⼆者有什么区别？" class="headerlink" title="1、Linux 中的硬链接和软连接是什么，⼆者有什么区别？"></a>1、Linux 中的硬链接和软连接是什么，⼆者有什么区别？</h2><h3 id="硬链接（Hard-Link）和软链接（Soft-Link）："><a href="#硬链接（Hard-Link）和软链接（Soft-Link）：" class="headerlink" title="硬链接（Hard Link）和软链接（Soft Link）："></a><strong>硬链接（Hard Link）和软链接（Soft Link）</strong>：</h3><p>在 Linux 中，<strong>硬链接和软链接（符号链接）是两种实现文件链接的方式，它们用于指向文件系统中的文件或目录</strong>。</p>
 <hr>
@@ -3958,9 +3958,9 @@
 </ul>
 </li>
 </ol>
-<h2 id="2、CC-攻击是什么？什么叫-DDOS-攻击？什么是⽹站数据库注⼊？"><a href="#2、CC-攻击是什么？什么叫-DDOS-攻击？什么是⽹站数据库注⼊？" class="headerlink" title="2、CC 攻击是什么？什么叫 DDOS 攻击？什么是⽹站数据库注⼊？"></a>2、CC 攻击是什么？什么叫 DDOS 攻击？什么是⽹站数据库注⼊？</h2><p><img src="/JOB-md.assets/image-20240329194902277-1737881543400164.png" alt="image-20240329194902277"></p>
-<h2 id="3、如何在-Linux-中查看系统资源使⽤情况？⽐如内存、CPU、⽹络端口。"><a href="#3、如何在-Linux-中查看系统资源使⽤情况？⽐如内存、CPU、⽹络端口。" class="headerlink" title="3、如何在 Linux 中查看系统资源使⽤情况？⽐如内存、CPU、⽹络端口。"></a>3、如何在 Linux 中查看系统资源使⽤情况？⽐如内存、CPU、⽹络端口。</h2><p><img src="/JOB-md.assets/image-20240329194624144-1737881543400165.png" alt="image-20240329194624144"></p>
-<p><img src="/JOB-md.assets/image-20240329194643040-1737881543400166.png" alt="image-20240329194643040"></p>
+<h2 id="2、CC-攻击是什么？什么叫-DDOS-攻击？什么是⽹站数据库注⼊？"><a href="#2、CC-攻击是什么？什么叫-DDOS-攻击？什么是⽹站数据库注⼊？" class="headerlink" title="2、CC 攻击是什么？什么叫 DDOS 攻击？什么是⽹站数据库注⼊？"></a>2、CC 攻击是什么？什么叫 DDOS 攻击？什么是⽹站数据库注⼊？</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329194902277-1737881543400164.png" alt="image-20240329194902277"></p>
+<h2 id="3、如何在-Linux-中查看系统资源使⽤情况？⽐如内存、CPU、⽹络端口。"><a href="#3、如何在-Linux-中查看系统资源使⽤情况？⽐如内存、CPU、⽹络端口。" class="headerlink" title="3、如何在 Linux 中查看系统资源使⽤情况？⽐如内存、CPU、⽹络端口。"></a>3、如何在 Linux 中查看系统资源使⽤情况？⽐如内存、CPU、⽹络端口。</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329194624144-1737881543400165.png" alt="image-20240329194624144"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329194643040-1737881543400166.png" alt="image-20240329194643040"></p>
 <h2 id="4、Linux的swap-类似于Windows的虚拟内存"><a href="#4、Linux的swap-类似于Windows的虚拟内存" class="headerlink" title="4、Linux的swap  (类似于Windows的虚拟内存)"></a>4、Linux的swap  (类似于Windows的虚拟内存)</h2><p>在Linux系统中，<strong>swap（交换空间）</strong>是一种用来扩展系统虚拟内存的技术。当物理内存（RAM）不足以满足正在运行的所有程序的需求时，系统可以将一些暂时不需要的内存页移动到硬盘的swap空间，以释放物理内存用于当前需要的任务。</p>
 <h3 id="swap的作用"><a href="#swap的作用" class="headerlink" title="swap的作用"></a><strong>swap的作用</strong></h3><ol>
 <li><strong>扩展内存容量</strong>：当物理内存不足时，系统可以将一部分的数据存储到swap分区中，从而扩展内存容量。</li>
@@ -3985,7 +3985,7 @@
 
 
 
-<h1 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h1><p><img src="/JOB-md.assets/91143a6dd3952d4207b29eaebcaba229-1737881543400167.png"></p>
+<h1 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h1><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/91143a6dd3952d4207b29eaebcaba229-1737881543400167.png"></p>
 <h2 id="0、介绍一下红黑树"><a href="#0、介绍一下红黑树" class="headerlink" title="0、介绍一下红黑树"></a>0、介绍一下红黑树</h2><p>红黑树是一种自平衡的<strong>二叉查找树</strong>，它在每个节点上增加了一个存储位来表示节点的颜色，可以是红色或黑色。红黑树通过以下五个性质来保持平衡，确保树的高度大致为对数级别，从而使得查找、插入和删除操作的<strong>时间复杂度最坏情况下为O(log n)：</strong></p>
 <ol>
 <li><p><strong>每个节点要么是红色，要么是黑色。</strong></p>
@@ -4212,7 +4212,7 @@
 <li><p><strong>底层数据结构：</strong> JDK1.8 以后的 <code>HashMap</code> 在解决哈希冲突时有了较大的变化，当链表长度大于阈值（默认为 <strong>8</strong>）时，将链表转化为红黑树（将链表转换成红黑树前会判断，如果当前数组的长度小于 64，那么会选择先进行数组扩容，而不是转换为红黑树），以减少搜索时间（后文中我会结合源码对这一过程进行分析）。<code>Hashtable</code> 没有这样的机制。</p>
 <p>HashMap的put方法。</p>
 </li>
-<li><p><img src="/JOB-md.assets/image-20240521083111049-1737881543400168.png" alt="image-20240521083111049"></p>
+<li><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521083111049-1737881543400168.png" alt="image-20240521083111049"></p>
 </li>
 </ul>
 <h2 id="14、HashMap和HashSet区别"><a href="#14、HashMap和HashSet区别" class="headerlink" title="14、HashMap和HashSet区别"></a>14、HashMap和HashSet区别</h2><ul>
@@ -4231,12 +4231,12 @@
 <p>JDK1.8之后，数组和链表&#x2F;红黑树，链表长度大于阈值（默认为 8）（将链表转换成红黑树前会判断，如果当前数组的长度小于 64，那么会选择先进行数组扩容，而不是转换为红黑树）时，将链表转化为红黑树，以减少搜索时间。</p>
 <h2 id="17、HashMap多线程操作导致死循环问题"><a href="#17、HashMap多线程操作导致死循环问题" class="headerlink" title="17、HashMap多线程操作导致死循环问题"></a>17、HashMap多线程操作导致死循环问题</h2><p>JDK1.7 头插法会导致环形链表</p>
 <p>JDK1.8 尾插解决</p>
-<p><img src="/JOB-md.assets/image-20240521084214901-1737881543400169.png" alt="image-20240521084214901"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521084214901-1737881543400169.png" alt="image-20240521084214901"></p>
 <h2 id="18、HashMap-的长度为什么是-2-的幂次方"><a href="#18、HashMap-的长度为什么是-2-的幂次方" class="headerlink" title="18、HashMap 的长度为什么是 2 的幂次方"></a>18、HashMap 的长度为什么是 2 的幂次方</h2><ul>
 <li>为了<strong>加快哈希计算</strong>以及<strong>减少哈希冲突</strong></li>
 </ul>
 <p>解释：（n-1）&amp;hash&#x3D;&#x3D;hash%n；hash值就是要用低位的信息，那么结合&amp;操作，&amp;的另一个数最好低位全是1，这样&amp;才有意义，否则结果就肯定是0那么&amp;就没有意义，所以需要2^n</p>
-<p><img src="/JOB-md.assets/image-20240521083455565-1737881543400170.png" alt="image-20240521083455565"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521083455565-1737881543400170.png" alt="image-20240521083455565"></p>
 <h2 id="19、HashMap为什么线程不安全？"><a href="#19、HashMap为什么线程不安全？" class="headerlink" title="19、HashMap为什么线程不安全？"></a>19、HashMap为什么线程不安全？</h2><p>JDK1.7 及之前版本，在多线程环境下，**<code>HashMap</code> 扩容时会造成死循环和数据丢失**的问题。</p>
 <p>数据丢失这个在 JDK1.7 和 JDK 1.8 中都存在，这里以 JDK 1.8 为例进行介绍。</p>
 <p>JDK 1.8 后，在 <code>HashMap</code> 中，多个键值对可能会被分配到同一个桶（bucket），并以链表或红黑树的形式存储。多个线程对 <code>HashMap</code> 的 <code>put</code> 操作会导致线程不安全，具体来说会有<strong>数据覆盖</strong>的风险</p>
@@ -4309,7 +4309,7 @@
 </ul>
 <p><code>Arrays.sort()</code> 的底层实现充分考虑了更优的性能表现。</p>
 <p>考察基础会问：<strong>不稳定：选择、快速、希尔、堆</strong></p>
-<p><img src="/JOB-md.assets/image-20241029102236611-1737881543400172.png" alt="image-20241029102236611"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241029102236611-1737881543400172.png" alt="image-20241029102236611"></p>
 <h1 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h1><h2 id="1、什么是数据库事务？讲⼀下事务的-ACID-特性？"><a href="#1、什么是数据库事务？讲⼀下事务的-ACID-特性？" class="headerlink" title="1、什么是数据库事务？讲⼀下事务的 ACID 特性？"></a>1、什么是数据库事务？讲⼀下事务的 ACID 特性？</h2><p><strong>数据库事务是指数据库管理系统（DBMS）中的⼀个操作序列，这些操作必须作为⼀个不可分割的单元执⾏，即要么全部执行成功，要么全部失败回滚。</strong></p>
 <p>事务的 ACID 特性指四个关键特征：原⼦性（Atomicity）、⼀致性（Consistency）、隔离性（Isolation）和持久性（Durability）。 </p>
 <pre><code>1. 原⼦性（Atomicity）：**事务是⼀个原⼦操作，要么全部提交，要么全部回滚。**当⼀个事务执⾏期间发⽣故障，操作系统会⾃动将其回滚到事务执⾏之前的状态，保证数据的⼀致性。
@@ -4524,7 +4524,7 @@
 <p><strong>作用：</strong></p>
 <p>为了快速判断表⾥是否有记录被加锁，可以提⾼数据库并发性能，防⽌死锁的发⽣。它是表级锁，⽽不是⾏级锁。</p>
 <p>表锁和⾏锁是满⾜<strong>读读共享、读写互斥、写写互斥的</strong>。</p>
-<p><img src="/JOB-md.assets/image-20240313095020577-1737881543400171.png" alt="image-20240313095020577"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240313095020577-1737881543400171.png" alt="image-20240313095020577"></p>
 <h2 id="6、InnoDB有哪几类行锁？"><a href="#6、InnoDB有哪几类行锁？" class="headerlink" title="6、InnoDB有哪几类行锁？"></a>6、InnoDB有哪几类行锁？</h2><p>InnoDB 行锁是通过对索引数据页上的记录加锁实现的，MySQL InnoDB 支持三种行锁定方式：</p>
 <p><strong>记录锁（Record Lock）</strong>：也被称为记录锁，属于单个行记录上的锁。<br><strong>间隙锁（Gap Lock）</strong>：锁定一个范围，不包括记录本身。<br><strong>临键锁（Next-Key Lock）</strong>：Record Lock+Gap Lock，锁定一个范围，包含记录本身，主要目的是为了解决幻读问题（MySQL 事务部分提到过）。记录锁只能锁住已经存在的记录，为了避免插入新记录，需要依赖间隙锁。</p>
 <p><strong>在 InnoDB 默认的隔离级别 REPEATABLE-READ 下，行锁默认使用的是 Next-Key Lock。但是，如果操作的索引是唯一索引或主键，InnoDB 会对 Next-Key Lock 进行优化，将其降级为 Record Lock，即仅锁住索引本身，而不是范围。</strong></p>
@@ -4534,10 +4534,10 @@
 <p>**⼀条记录的 uodolog 格式由 trx_ 事务 id + roll_pointer 指针串成⼀个链表，即版本链。此外在读提交和可重复读隔离级别中，它和快照 readView 实现了 MVCC。 **（⾸先当我们执⾏⼀条增删改 sql 语句（没⽤begin）时，mysql 会隐式开启事务执⾏该条语句，在执⾏完毕后  mysql 会⾃动提交事务，我们就能看⻅增删改的实际结果，但是如果在事务执⾏中，mysql 在没提交事务的时候崩溃了，那么数据有问题了，此时就需要回滚到事务之前的数据，它本质就是⽤于撤销回退的⽇志（ctrl+z），在事务没提交之前，mysql 会记录更新前的数据到 undolog 中，当事务回滚时，就利⽤ uodolog ⽇志进⾏回滚。）</p>
 <p>然后是 <strong>redolog</strong>，是为了<strong>防⽌机器故障导致数据丢失</strong>的物理⽇志，它将<strong>内存写入磁盘的随机读写方式转换成顺序读写的方式</strong>写⼊磁盘。需要注意的是，<strong>当需要数据恢复的时候才会进行此操作（先顺序IO再随机IO，只有随机IO出现问题时才会使用redolog进行数据恢复）</strong>。           它和 uodolog 区别是：redolog 记录了 此次事务完成后的数据状态，记录的是更新之后的值；undolog 记录了此次事务开始前的数据状态，记录的是更新之前的值；它保证了数据的持久性。 </p>
 <p><strong>binlog 是存档⽇志，在完成⼀条更新操作后，server 层会⽣成 binlog，等事务提交时，将此事务运⾏中产⽣的所有DDL记录通过追加写统⼀写⼊ binlog ⽇志⽂件，保存的是全量的⽇志</strong>，⽤于备份恢复和主从复制。</p>
-<p><img src="/JOB-md.assets/image-20240313092244490-1737881543400173.png" alt="image-20240313092244490"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240313092244490-1737881543400173.png" alt="image-20240313092244490"></p>
 <p><strong>两阶段提交保证两台机器之间的同步</strong></p>
-<p><img src="/JOB-md.assets/image-20240313094402856-1737881543400174.png" alt="image-20240313094402856"></p>
-<p><img src="/JOB-md.assets/image-20240314102825513-1737881543400176.png" alt="image-20240314102825513"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240313094402856-1737881543400174.png" alt="image-20240313094402856"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240314102825513-1737881543400176.png" alt="image-20240314102825513"></p>
 <h2 id="8、MVCC-是什么？InnoDB-是如何实现-MVCC-机制的？"><a href="#8、MVCC-是什么？InnoDB-是如何实现-MVCC-机制的？" class="headerlink" title="8、MVCC 是什么？InnoDB 是如何实现 MVCC 机制的？"></a>8、MVCC 是什么？InnoDB 是如何实现 MVCC 机制的？</h2><p>MVCC（Multi-Version Concurrency Control）是<strong>⼀种并发控制机制，它通过为每个读操作创建⼀个视图（readview）来实现读写分离，保证了多个事务同时读写同⼀个数据时的⼀致性和并发性</strong>。 </p>
 <p>InnoDB 是 MySQL 数据库中的⼀种存储引擎，它通过使⽤ <strong>MVCC 实现了⾼度并发的事务处理</strong>。 </p>
 <p>MVCC 的具体实现，依赖于数据库记录中的<strong>隐式字段、undolog ⽇志、readView</strong>。 </p>
@@ -4569,15 +4569,15 @@
 <p><strong>最左前缀匹配原则</strong></p>
 <p>使⽤<strong>联合索引时，存在最左匹配原则，也就是按照最左优先的⽅式进⾏索引的匹配。在使⽤联合索引进⾏查询的时候，如果不遵循「最左匹配原则</strong>，联合索引会失效，这样就⽆法利⽤到索引快速查询的特性了</p>
 <p>综上所示，联合索引的最左匹配原则，在遇到<strong>范围查询</strong>（如 &gt;、&lt;）的时候，就会停⽌匹配，也就是范围查询的字段可以⽤到联合索引，但是在范围查询字段的后⾯的字段⽆法⽤到联合索引。注意，对于 <strong>&gt;&#x3D;、&lt;&#x3D;、BETWEEN、 like 前缀匹配的范围查询</strong>，并不会停⽌匹配。</p>
-<p><img src="/JOB-md.assets/image-20240315101935578-1737881543400175.png" alt="image-20240315101935578"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240315101935578-1737881543400175.png" alt="image-20240315101935578"></p>
 <h2 id="10、MySQL查询慢-除了索引还能因为什么？"><a href="#10、MySQL查询慢-除了索引还能因为什么？" class="headerlink" title="10、MySQL查询慢,除了索引还能因为什么？"></a>10、MySQL查询慢,除了索引还能因为什么？</h2><p>###<strong>1、MySQL优化器选错索引，使用explain</strong></p>
-<p><img src="/JOB-md.assets/b6662cb786730bff72697e090700d906.png"></p>
-<img src="JOB-md.assets/6bcbc66371700f539945c4d94a17fee7.png" style="zoom:50%;" />
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/b6662cb786730bff72697e090700d906.png"></p>
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/6bcbc66371700f539945c4d94a17fee7.png" style="zoom:50%;" />
 
 <p>id列的值是select查询中的序号，比如：1、2、3、4等，它决定了表的执行顺序。</p>
-<img src="JOB-md.assets/eb11436348cc1850cf2bed8f573a629b.png" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/eb11436348cc1850cf2bed8f573a629b.png" style="zoom: 67%;" />
 
-<p>类型	含义<br>SIMPLE	简单SELECT查询，不包含子查询和UNION<br>PRIMARY	复杂查询中的最外层查询，表示主要的查询<br>SUBQUERY	SELECT或WHERE列表中包含了子查询<br>DERIVED	FROM列表中包含的子查询，即衍生<br>UNION	UNION关键字之后的查询<br>UNION RESULT	从UNION后的表获取结果集<br><img src="JOB-md.assets/42b8c1306879cbdd6165d8026bdf0132.png" style="zoom: 67%;" /></p>
+<p>类型	含义<br>SIMPLE	简单SELECT查询，不包含子查询和UNION<br>PRIMARY	复杂查询中的最外层查询，表示主要的查询<br>SUBQUERY	SELECT或WHERE列表中包含了子查询<br>DERIVED	FROM列表中包含的子查询，即衍生<br>UNION	UNION关键字之后的查询<br>UNION RESULT	从UNION后的表获取结果集<br><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/42b8c1306879cbdd6165d8026bdf0132.png" style="zoom: 67%;" /></p>
 <p>ref列</p>
 <p>该列表示索引命中的列或者常量。</p>
 <p>rows列</p>
@@ -4613,16 +4613,16 @@
 <p>##13、数据库分库分表是啥？读扩散又是啥？</p>
 <p><a href="https://www.bilibili.com/video/BV1wM4y1t7wx/?spm_id_from=333.788&vd_source=03235a8277a4e1950048927a7c975e38">玩原神学编程-数据库分库分表是啥？读扩散又是啥？_哔哩哔哩_bilibili</a></p>
 <p>读写热点问题：id取模分表（id&#x2F;总数据量向下取整）和id范围分表</p>
-<p><img src="/JOB-md.assets/image-20240916154744270-1737881543400177.png" alt="image-20240916154744270"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240916154744270-1737881543400177.png" alt="image-20240916154744270"></p>
 <p>水平分库：不同库中会对应同一个表的数据。</p>
 <p>##14、数据库三范式</p>
 <p>三范式（Third Normal Form, 3NF）是数据库设计中的一种规范化原则，用于消除数据冗余和避免数据更新异常。三范式是关系数据库设计中的一个重要概念，它建立在第一范式（1NF）和第二范式（2NF）的基础上。</p>
 <h3 id="第一范式（1NF）"><a href="#第一范式（1NF）" class="headerlink" title="第一范式（1NF）"></a>第一范式（1NF）</h3><p>第一范式要求数据库表的每一列都是不可分割的原子值，即每一列只能包含一个值，不能包含多个值或集合。</p>
 <h3 id="第二范式（2NF）"><a href="#第二范式（2NF）" class="headerlink" title="第二范式（2NF）"></a>第二范式（2NF）</h3><p>在满足第一范式的基础上，第二范式要求数据库表中的非主键字段必须完全依赖于主键，而不是部分依赖于主键。换句话说，非主键字段必须完全依赖于主键，而不是依赖于主键的一部分。</p>
 <h3 id="第三范式（3NF）"><a href="#第三范式（3NF）" class="headerlink" title="第三范式（3NF）"></a>第三范式（3NF）</h3><p>在满足第二范式的基础上，第三范式要求数据库表中的非主键字段必须直接依赖于主键，而不能依赖于非主键字段。这意味着非主键字段之间不应该存在相互依赖的关系。</p>
-<p><img src="/JOB-md.assets/image-20240916154922582-1737881543400178.png" alt="image-20240916154922582"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240916154922582-1737881543400178.png" alt="image-20240916154922582"></p>
 <h1 id="SSM—-Spring、SpringMVC、MyBatis-SpringBoot"><a href="#SSM—-Spring、SpringMVC、MyBatis-SpringBoot" class="headerlink" title="SSM—&gt;Spring、SpringMVC、MyBatis   +    SpringBoot"></a>SSM—&gt;Spring、SpringMVC、MyBatis   +    SpringBoot</h1><h2 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h2><p>Spring 各个模块的依赖关系：</p>
-<p><img src="/JOB-md.assets/20200902100038.png"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/20200902100038.png"></p>
 <ul>
 <li><p><strong>spring-core</strong>：Spring 框架基本的核心工具类。</p>
 </li>
@@ -4674,7 +4674,7 @@
 <li><p>Spring 团队提倡测试驱动开发（TDD）。有了控制反转 (IoC)的帮助，单元测试和集成测试变得更简单。</p>
 </li>
 <li><p>Spring 的测试模块对 JUnit（单元测试框架）、TestNG（类似 JUnit）、Mockito（主要用来 Mock 对象）、PowerMock（解决 Mockito 的问题比如无法模拟 final, static， private 方法）等等常用的测试框架支持的都比较好。</p>
-<p><img src="/JOB-md.assets/1663726169861-b5acb757-17e0-4d3d-a811-400eb7edd1b3.png"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/1663726169861-b5acb757-17e0-4d3d-a811-400eb7edd1b3.png"></p>
 </li>
 </ul>
 <p>**Spring,Spring MVC,Spring Boot 之间什么关系?**（总结的不好—后面要改）</p>
@@ -4798,7 +4798,7 @@
 <li>第四步：使用Bean</li>
 <li>第五步：销毁Bean</li>
 </ul>
-<p><img src="/JOB-md.assets/1665388735200-444405f6-283d-4b3a-8cdf-8c3e01743618.png"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/1665388735200-444405f6-283d-4b3a-8cdf-8c3e01743618.png"></p>
 <p>注意：</p>
 <ul>
 <li>第一：只有正常关闭spring容器，bean的销毁方法才会被调用。</li>
@@ -4808,9 +4808,9 @@
 <p>Bean生命周期之7步（<strong>较详细版</strong>）（一般回答这个即可）：</p>
 <p>在以上的5步中，第3步是初始化Bean，如果你还想在初始化前和初始化后添加代码，可以加入“Bean后处理器”。编写一个类实现<strong>BeanPostProcessor</strong>类，并且重写before和after方法。</p>
 <p>如果加上Bean后处理器的话，Bean的生命周期就是7步了：</p>
-<p><img src="/JOB-md.assets/1665393936765-0ea5dcdd-859a-4ac5-9407-f06022c498b9.png"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/1665393936765-0ea5dcdd-859a-4ac5-9407-f06022c498b9.png"></p>
 <p> Bean生命周期之10步（<strong>详细版</strong>）：</p>
-<p><img src="/JOB-md.assets/1665394697870-15de433a-8d50-4b31-9b75-b2ca7090c1c6.png"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/1665394697870-15de433a-8d50-4b31-9b75-b2ca7090c1c6.png"></p>
 <p>Aware相关的接口包括：BeanNameAware、 、BeanFactoryAware</p>
 <ul>
 <li>当Bean实现了BeanNameAware，Spring会将Bean的名字传递给Bean。</li>
@@ -4824,7 +4824,7 @@
 </ul>
 <h4 id="8）Bean的循环依赖问题"><a href="#8）Bean的循环依赖问题" class="headerlink" title="8）Bean的循环依赖问题"></a>8）Bean的循环依赖问题</h4><p>A对象中有B属性。B对象中有A属性。这就是循环依赖。我依赖你，你也依赖我。</p>
 <p>比如：丈夫类Husband，妻子类Wife。Husband中有Wife的引用。Wife中有Husband的引用</p>
-<p><img src="/JOB-md.assets/1665452274046-82594b87-2974-4e08-a6ab-2218d001d14f.png"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/1665452274046-82594b87-2974-4e08-a6ab-2218d001d14f.png"></p>
 <ul>
 <li><p><strong>在singleton + set注入的情况下，循环依赖是没有问题的。Spring可以解决这个问题。</strong></p>
 <ul>
@@ -4849,9 +4849,9 @@
 <p>Spring的AOP使用的动态代理是：<strong>JDK动态代理 + CGLIB动态代理技术</strong>。Spring在这两种动态代理中灵活切换，如果是代理接口，会默认使用JDK动态代理，如果要代理某个类，这个类没有实现接口，就会切换使用CGLIB。当然，你也可以强制通过一些配置让Spring只使用CGLIB。</p>
 <p>AOP(Aspect-Oriented Programming)能够将那些与业务无关，却为业务模块所共同调用的逻辑或责任（例如<strong>事务处理、日志管理、权限控制</strong>等）封装起来，<strong>便于减少系统的重复代码，降低模块间的耦合度，并有利于未来的可拓展性和可维护性</strong>。</p>
 <p>Spring AOP 就是基于动态代理的，如果要代理的对象，实现了某个接口，那么 Spring AOP 会使用 <strong>JDK Proxy</strong>，去创建代理对象，而对于没有实现接口的对象，就无法使用 JDK Proxy 去进行代理了，这时候 Spring AOP 会使用 <strong>Cglib</strong> 生成一个被代理对象的子类来作为代理，如下图所示：</p>
-<p><img src="/JOB-md.assets/230ae587a322d6e4d09510161987d346.jpeg"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/230ae587a322d6e4d09510161987d346.jpeg"></p>
 <p>当然你也可以使用 <code>AspectJ </code>！Spring AOP 已经集成了 AspectJ ，AspectJ 应该算的上是 Java 生态系统中最完整的 AOP 框架了。</p>
-<p><img src="/JOB-md.assets/image-20240307224632998-1737881543400179.png" alt="image-20240307224632998"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240307224632998-1737881543400179.png" alt="image-20240307224632998"></p>
 <p>Spring对AOP的实现包括以下3种方式：</p>
 <ul>
 <li><font color=red><strong>第一种方式：Spring框架结合AspectJ框架实现的AOP，基于注解方式。</strong></font></li>
@@ -4870,7 +4870,7 @@
 <li><p><strong>使用代理</strong>：Spring AOP使用代理来拦截方法调用。如果你的目标对象没有实现任何接口，Spring会使用CGLIB来创建代理。如果你的目标对象实现了接口，Spring会使用JDK动态代理。</p>
 </li>
 <li><p><strong>配置AOP</strong>：在Spring配置文件中，或者使用Java配置，配置AOP，包括切入点（Pointcut）和通知（Advice）。</p>
-<p><img src="/JOB-md.assets/image-20240522211405218-1737881543400180.png" alt="image-20240522211405218"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240522211405218-1737881543400180.png" alt="image-20240522211405218"></p>
 </li>
 </ol>
 <h4 id="1）Spring-AOP和AspectJ-AOP有什么区别？"><a href="#1）Spring-AOP和AspectJ-AOP有什么区别？" class="headerlink" title="1）Spring AOP和AspectJ AOP有什么区别？"></a>1）Spring AOP和AspectJ AOP有什么区别？</h4><p><strong>Spring AOP 属于运行时增强，而 AspectJ 是编译时增强。Spring AOP 基于代理(Proxying)，而 AspectJ 基于字节码操作</strong>(Bytecode Manipulation)。</p>
@@ -4939,7 +4939,7 @@
 <p>如果想要让某些特定的异常不回滚事务，可以使用如下的注解：</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@Transactional(noRollbackFor = CustomException.class)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">someMethod</span><span class="params">()</span> &#123;</span><br><span class="line"><span class="comment">// some business logic</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><img src="/JOB-md.assets/image-20240522212252002-1737881543400181.png" alt="image-20240522212252002"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240522212252002-1737881543400181.png" alt="image-20240522212252002"></p>
 <p><strong>AOP失效：内部调用不会触发AOP、必须走代理</strong></p>
 <h4 id="6）Spring-Data-JPA（6，7没有接触过）"><a href="#6）Spring-Data-JPA（6，7没有接触过）" class="headerlink" title="6）Spring Data JPA（6，7没有接触过）"></a>6）Spring Data JPA（6，7没有接触过）</h4><p>JPA 重要的是实战，这里仅对小部分知识点进行总结</p>
 <h5 id="1）如何使用JPA在数据库中非持久化一个字段"><a href="#1）如何使用JPA在数据库中非持久化一个字段" class="headerlink" title="1）如何使用JPA在数据库中非持久化一个字段"></a>1）如何使用JPA在数据库中非持久化一个字段</h5><p>假如我们有下面一个类：</p>
@@ -5051,7 +5051,7 @@
 </li>
 </ol>
 <p>###8、Bean是线程安全的吗？</p>
-<img src="JOB-md.assets/image-20241105205306388-1737881543400182.png" alt="image-20241105205306388" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241105205306388-1737881543400182.png" alt="image-20241105205306388" style="zoom:67%;" />
 
 
 
@@ -5060,7 +5060,7 @@
 
 
 <h2 id="SpringMVC"><a href="#SpringMVC" class="headerlink" title="SpringMVC"></a><font color=red>SpringMVC</font></h2><p>MVC 是模型(Model)、视图(View)、控制器(Controller)的简写，其核心思想是通过将业务逻辑、数据、显示分离来组织代码。</p>
-<p><img src="/JOB-md.assets/image-20210809181452421.png"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20210809181452421.png"></p>
 <p>Spring MVC的核心组件：</p>
 <p>记住了下面这些组件，也就记住了 SpringMVC 的工作原理。</p>
 <ul>
@@ -5070,7 +5070,7 @@
 <li><strong><code>Handler</code><strong>：</strong>请求处理器</strong>，处理实际请求的处理器。</li>
 <li><strong><code>ViewResolver</code><strong>：</strong>视图解析器</strong>，根据 <code>Handler</code> 返回的逻辑视图 &#x2F; 视图，解析并渲染真正的视图，并传递给 <code>DispatcherServlet</code> 响应客户端</li>
 </ul>
-<p><img src="/JOB-md.assets/de6d2b213f112297298f3e223bf08f28.png"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/de6d2b213f112297298f3e223bf08f28.png"></p>
 <p><strong>流程说明（重要）：</strong></p>
 <ol>
 <li>客户端（浏览器）发送请求， <code>DispatcherServlet</code>拦截请求。</li>
@@ -5198,7 +5198,7 @@
 <p><strong>改进？</strong></p>
 <p>统一使用第三方插件来做缓存，如redis，mamcache等，<br>关闭mybatis的一级缓存和二级缓存，<br>mybatis仅仅只限于orm框架，数据库和对象的映射，以及操作sql。</p>
 <p>##21）执行流程</p>
-<img src="JOB-md.assets/image-20241106110349717-1737881543400184.png" alt="image-20241106110349717" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20241106110349717-1737881543400184.png" alt="image-20241106110349717" style="zoom: 67%;" />
 
 
 
@@ -5339,7 +5339,7 @@
 <h1 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h1><p><a href="https://www.bilibili.com/video/BV1cr4y1671t/?vd_source=03235a8277a4e1950048927a7c975e38">https://www.bilibili.com/video/BV1cr4y1671t/?vd_source=03235a8277a4e1950048927a7c975e38</a></p>
 <p>配合：<a href="https://www.bilibili.com/video/BV1cr4y1671t/?vd_source=03235a8277a4e1950048927a7c975e38">https://www.bilibili.com/video/BV1cr4y1671t/?vd_source=03235a8277a4e1950048927a7c975e38</a></p>
 <p>E:\java\mybatis\respository\org\apache\maven\maven-model-builder\3.1.0222</p>
-<p><img src="/JOB-md.assets/image-20240508193113664-1737881543401185.png" alt="image-20240508193113664"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240508193113664-1737881543401185.png" alt="image-20240508193113664"></p>
 <h2 id="1、什么是-Redis？Redis-有哪些特点？Redis-有哪些常⻅的应⽤场景？"><a href="#1、什么是-Redis？Redis-有哪些特点？Redis-有哪些常⻅的应⽤场景？" class="headerlink" title="1、什么是 Redis？Redis 有哪些特点？Redis 有哪些常⻅的应⽤场景？"></a>1、什么是 Redis？Redis 有哪些特点？Redis 有哪些常⻅的应⽤场景？</h2><p>Redis 是基于内存的键值型（key - value）的 NoSQL 数据库（⾮关系型数据库）。key ⼀般是 String 类型，⽽  value ⽀持丰富的数据类型，包括<strong>String、Hash、List、Set、SortedSet</strong> 这五种基本类型，此外还有 <strong>GEO、 BitMap、HyperLogLog</strong> 等其他类型。</p>
 <p>Redis 有哪些特点？</p>
 <ul>
@@ -5368,11 +5368,11 @@
 <li><p>⽀持分布式部署</p>
 </li>
 </ul>
-<img src="JOB-md.assets/image-20240329204556712-1737881543401186.png" alt="image-20240329204556712" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329204556712-1737881543401186.png" alt="image-20240329204556712" style="zoom: 67%;" />
 
-<img src="JOB-md.assets/image-20240329204624087-1737881543401187.png" alt="image-20240329204624087" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329204624087-1737881543401187.png" alt="image-20240329204624087" style="zoom:67%;" />
 
-<p><img src="/JOB-md.assets/image-20240329204700860-1737881543401188.png" alt="image-20240329204700860"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240329204700860-1737881543401188.png" alt="image-20240329204700860"></p>
 <h2 id="2、讲⼀下-Redis-的单线程模型，IO-多路复⽤是什么？"><a href="#2、讲⼀下-Redis-的单线程模型，IO-多路复⽤是什么？" class="headerlink" title="2、讲⼀下 Redis 的单线程模型，IO 多路复⽤是什么？"></a>2、讲⼀下 Redis 的单线程模型，IO 多路复⽤是什么？</h2><p>单线程</p>
 <hr>
 <p>​    <strong>Redis</strong>它采用单线程模型来处理客户端请求。<strong>这里的单线程指的是</strong>Redis服务器进程中<strong>只有一个主线程来处理所有的网络I&#x2F;O、数据读写、命令执行等任务</strong>，而不是像传统的多线程服务器一样，每个连接都会创建一个新的线程来处理。</p>
@@ -5463,11 +5463,11 @@
 </li>
 </ul>
 <p>##4、如何使用Redis 实现⼀个排⾏榜？</p>
-<p><img src="/JOB-md.assets/image-20240421095820604-1737881543401189.png" alt="image-20240421095820604"></p>
-<p><img src="/JOB-md.assets/image-20240421095841967-1737881543401190.png" alt="image-20240421095841967"></p>
-<p><img src="/JOB-md.assets/image-20240421095854810-1737881543401191.png" alt="image-20240421095854810"></p>
-<h2 id="5、Redis-的持久化机制有哪些？说说各⾃的优缺点和应⽤场景？"><a href="#5、Redis-的持久化机制有哪些？说说各⾃的优缺点和应⽤场景？" class="headerlink" title="5、Redis 的持久化机制有哪些？说说各⾃的优缺点和应⽤场景？"></a>5、Redis 的持久化机制有哪些？说说各⾃的优缺点和应⽤场景？</h2><p><img src="/JOB-md.assets/image-20240421095644996-1737881543401192.png" alt="image-20240421095644996"></p>
-<p><img src="/JOB-md.assets/image-20240421095700009-1737881543401193.png" alt="image-20240421095700009"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240421095820604-1737881543401189.png" alt="image-20240421095820604"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240421095841967-1737881543401190.png" alt="image-20240421095841967"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240421095854810-1737881543401191.png" alt="image-20240421095854810"></p>
+<h2 id="5、Redis-的持久化机制有哪些？说说各⾃的优缺点和应⽤场景？"><a href="#5、Redis-的持久化机制有哪些？说说各⾃的优缺点和应⽤场景？" class="headerlink" title="5、Redis 的持久化机制有哪些？说说各⾃的优缺点和应⽤场景？"></a>5、Redis 的持久化机制有哪些？说说各⾃的优缺点和应⽤场景？</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240421095644996-1737881543401192.png" alt="image-20240421095644996"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240421095700009-1737881543401193.png" alt="image-20240421095700009"></p>
 <p>##6、如何⽤ Redis 实现分布式 Session？</p>
 <p>分布式 session 指在多个服务器间共享 session，我们可以使⽤ redis 来存储 session 来实现该功能。</p>
 <p>在 redis 中我们通常使⽤ Hash 来存储 session。</p>
@@ -5486,16 +5486,16 @@
 <p>同时，还需要注意保护 Redis 中的 Session  数据不被恶意攻击者窃取，⼀般可以通过设置 Session 数据的前缀和使 ⽤随机的 Session ID 等⽅式来提⾼安全性。</p>
 </li>
 </ol>
-<h2 id="7、讲⼀下-Redis-中的内存淘汰机制、有哪些内存淘汰策略？"><a href="#7、讲⼀下-Redis-中的内存淘汰机制、有哪些内存淘汰策略？" class="headerlink" title="7、讲⼀下 Redis 中的内存淘汰机制、有哪些内存淘汰策略？"></a>7、讲⼀下 Redis 中的内存淘汰机制、有哪些内存淘汰策略？</h2><p><img src="/JOB-md.assets/image-20240421095340309-1737881543401194.png" alt="image-20240421095340309"></p>
-<p><img src="/JOB-md.assets/image-20240421095356981-1737881543401195.png" alt="image-20240421095356981"></p>
-<p><img src="/JOB-md.assets/image-20240421095456550-1737881543401196.png" alt="image-20240421095456550"></p>
-<h2 id="8、Redis-6-0-之后为何引入了多线程？6-0-之前为什么不使⽤多线程？"><a href="#8、Redis-6-0-之后为何引入了多线程？6-0-之前为什么不使⽤多线程？" class="headerlink" title="8、Redis 6.0 之后为何引入了多线程？6.0 之前为什么不使⽤多线程？"></a>8、Redis 6.0 之后为何引入了多线程？6.0 之前为什么不使⽤多线程？</h2><p><img src="/JOB-md.assets/image-20240421095126205-1737881543401197.png" alt="image-20240421095126205"></p>
+<h2 id="7、讲⼀下-Redis-中的内存淘汰机制、有哪些内存淘汰策略？"><a href="#7、讲⼀下-Redis-中的内存淘汰机制、有哪些内存淘汰策略？" class="headerlink" title="7、讲⼀下 Redis 中的内存淘汰机制、有哪些内存淘汰策略？"></a>7、讲⼀下 Redis 中的内存淘汰机制、有哪些内存淘汰策略？</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240421095340309-1737881543401194.png" alt="image-20240421095340309"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240421095356981-1737881543401195.png" alt="image-20240421095356981"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240421095456550-1737881543401196.png" alt="image-20240421095456550"></p>
+<h2 id="8、Redis-6-0-之后为何引入了多线程？6-0-之前为什么不使⽤多线程？"><a href="#8、Redis-6-0-之后为何引入了多线程？6-0-之前为什么不使⽤多线程？" class="headerlink" title="8、Redis 6.0 之后为何引入了多线程？6.0 之前为什么不使⽤多线程？"></a>8、Redis 6.0 之后为何引入了多线程？6.0 之前为什么不使⽤多线程？</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240421095126205-1737881543401197.png" alt="image-20240421095126205"></p>
 <p>主二，+充分利用了<strong>CPU多核的计算能力</strong>。</p>
-<img src="JOB-md.assets/image-20240509094608084-1737881543401198.png" alt="image-20240509094608084" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240509094608084-1737881543401198.png" alt="image-20240509094608084" style="zoom: 50%;" />
 
 <p>##9、Redis 有哪些数据类型？基础数据结构有⼏种？你还知道哪些 Redis  的⾼级数据结构？</p>
-<p><img src="/JOB-md.assets/image-20240421094954859-1737881543401199.png" alt="image-20240421094954859"></p>
-<p><img src="/JOB-md.assets/image-20240421095014099-1737881543401200.png" alt="image-20240421095014099"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240421094954859-1737881543401199.png" alt="image-20240421094954859"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240421095014099-1737881543401200.png" alt="image-20240421095014099"></p>
 <p>##10、Redis 为什么快？</p>
 <p><strong>1、纯内存操作</strong> </p>
 <p>Redis 是基于内存的数据存储系统，绝⼤部分请求是纯粹的内存操作。 </p>
@@ -5504,7 +5504,7 @@
 <p><strong>3、采⽤了非阻塞 I&#x2F;O 多路复⽤机制</strong> </p>
 <p>为了实现单线程模型，Redis 使⽤了 IO 多路复⽤技术。IO 多路复⽤是指操作系统提供的⼀种 IO 模型，可以让<strong>⼀个进程同时监听多个 IO 事件（如读写事件）</strong>，并在有事件发⽣时通知进程，从⽽实现并发处理 IO 事件。 具体来说，在 Redis 中，客户端的请求是由⼀个单线程来处理的，⽽ IO 操作却是通过 <strong>epoll 多路复⽤技术实现</strong> 的。</p>
 <p>Redis 单线程情况下，内核会⼀直监听 socket 上的连接请求或者数据请求，⼀旦有请求到达就交给 Redis 线程处理，这就实现了⼀个 Redis 线程处理多个 IO 流的效果。 select&#x2F;epoll 提供了基于事件的回调机制，即针对不同事件的发⽣，调⽤相应的事件处理器。所以 Redis ⼀直在处理事件，提升 Redis 的响应性能。</p>
-<p><img src="/JOB-md.assets/image-20240417224837032-1737881543401201.png" alt="image-20240417224837032"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240417224837032-1737881543401201.png" alt="image-20240417224837032"></p>
 <p>##11、如何使⽤ Redis 实现分布式锁？</p>
 <p>基于 Redis 的分布式锁实现思路：</p>
 <ul>
@@ -5589,37 +5589,17 @@
 <li>误差极⼩ 0.81%</li>
 </ul>
 <p>我⽤的可是上流的 SpringBoot,为什么要⽤ Jedis? 使⽤ <strong>HyperLogLog统计 UV</strong></p>
-<p><img src="/JOB-md.assets/image-20240421090943401-1737881543401202.png" alt="image-20240421090943401"></p>
-<h2 id="13、Redis与MySQL双写一致性如何保证？"><a href="#13、Redis与MySQL双写一致性如何保证？" class="headerlink" title="13、Redis与MySQL双写一致性如何保证？"></a>13、Redis与MySQL双写一致性如何保证？</h2><img src="JOB-md.assets/06adb1af94e5549b9f764123afe4ac5f.png" style="zoom: 80%;" />
-
-<p><img src="/JOB-md.assets/image-20240509132603722-1737881543401203.png" alt="image-20240509132603722"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240421090943401-1737881543401202.png" alt="image-20240421090943401"></p>
+<h2 id="13、Redis与MySQL双写一致性如何保证？"><a href="#13、Redis与MySQL双写一致性如何保证？" class="headerlink" title="13、Redis与MySQL双写一致性如何保证？"></a>13、Redis与MySQL双写一致性如何保证？</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240509132603722-1737881543401203.png" alt="image-20240509132603722"></p>
 <p>缓存更新—-主动更新策略</p>
 <ul>
-<li>Cache-Aside Pattern，即旁路缓存模式，它的提出是为了尽可能地解决缓存与数据库的数据不一致问题。</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th><img src="JOB-md.assets/2448bc86d5cd4ad71d7c9fdfb87d2b9e.png" style="zoom: 67%;" /></th>
-<th><img src="/JOB-md.assets/84658600d3c53a815110fc025987c726.png"></th>
-</tr>
-</thead>
-</table>
-<ul>
-<li>Read-Through&#x2F;Write-Through（读写穿透）</li>
+<li><p>Cache-Aside Pattern，即旁路缓存模式，它的提出是为了尽可能地解决缓存与数据库的数据不一致问题。</p>
+</li>
+<li><p>Read-Through&#x2F;Write-Through（读写穿透）</p>
+</li>
 </ul>
 <p>Read&#x2F;Write-Through模式中，服务端把<strong>缓存作为主要数据存储</strong>。应用程序跟数据库缓存交互，都是通过<strong>抽象缓存层</strong>完成的</p>
-<table>
-<thead>
-<tr>
-<th><img src="JOB-md.assets/248df8d8cf82c3cb9fe82aa1d378560a.png"  /></th>
-<th><img src="JOB-md.assets/27617e03937ba6e112f371e701b72b2c.png"  /></th>
-</tr>
-</thead>
-</table>
 <p>Write-behind 跟Read-Through&#x2F;Write-Through有相似的地方，都是由Cache Provider来负责缓存和数据库的读写。它们又有个很大的不同：Read&#x2F;Write-Through是同步更新缓存和数据的，Write-Behind则是只更新缓存，<strong>不直接更新数据库，通过批量异步的方式来更新数据库</strong>。</p>
-<img src="JOB-md.assets/071df696f466eaec62fce2124641acdb.png" style="zoom:67%;" />
-
 <p>这种方式下，缓存和数据库的一致性不强，对一致性要求高的系统要谨慎使用。但是它适合频繁写的场景，MySQL的<strong>InnoDB Buffer Pool机制</strong>就使用到这种模式。</p>
 <p><strong>操作缓存的时候，到底是删除缓存呢，还是更新缓存？</strong></p>
 <p>更新缓存，会出现缓存和数据库数据不一致的问题。</p>
@@ -5649,21 +5629,21 @@
 </ul>
 <p><a href="https://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653557285&idx=1&sn=6eedd04eac05b1e531b8096ccd6e7cf9&chksm=813983bdb64e0aabf8bbcbb8e991b9045f7c675752debf966d53017ec4a0e495310dcc4cd4ac&mpshare=1&srcid=1016Yl8anhxtWuKI8SKLYEDr&sharer_sharetime=1634364868193&sharer_shareid=2bf0d8899ef3c7501d20b3a21b816303&from=singlemessage&scene=1&subscene=10000&clicktime=1634779662&enterid=1634779662&ascene=1&devicetype=android-30&version=28000f39&nettype=ctnet&abtest_cookie=AAACAA==&lang=zh_CN&exportkey=AaOaGL1BPofOCZG/+V0VCBM=&pass_ticket=WXDx5OHa+YvJJHI4xgzF39p1DeTynkPBL8GPqqTd+rnn0A+htLS9JGW8Hv7IowSZ&wx_header=1"></a></p>
 <h2 id="14、缓存穿透"><a href="#14、缓存穿透" class="headerlink" title="14、缓存穿透"></a><font color=red>14、缓存穿透</font></h2><p>客户端请求的数据在缓存中和数据库中都不存在，这样缓存永远不会生效，这些请求都会打到数据库。</p>
-<p><img src="/JOB-md.assets/image-20240407190003945-1737881543401204.png" alt="image-20240407190003945"></p>
-<p><img src="/JOB-md.assets/image-20240407190635220-1737881543402206.png" alt="image-20240407190635220"></p>
-<h2 id="15、缓存雪崩"><a href="#15、缓存雪崩" class="headerlink" title="15、缓存雪崩"></a><font color=red>15、缓存雪崩</font></h2><p><img src="/JOB-md.assets/image-20240407191944439-1737881543402205.png" alt="image-20240407191944439"></p>
-<h2 id="16、缓存击穿"><a href="#16、缓存击穿" class="headerlink" title="16、缓存击穿"></a><font color=red>16、缓存击穿</font></h2><p><img src="/JOB-md.assets/image-20240509095605280-1737881543402208.png" alt="image-20240509095605280"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240407190003945-1737881543401204.png" alt="image-20240407190003945"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240407190635220-1737881543402206.png" alt="image-20240407190635220"></p>
+<h2 id="15、缓存雪崩"><a href="#15、缓存雪崩" class="headerlink" title="15、缓存雪崩"></a><font color=red>15、缓存雪崩</font></h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240407191944439-1737881543402205.png" alt="image-20240407191944439"></p>
+<h2 id="16、缓存击穿"><a href="#16、缓存击穿" class="headerlink" title="16、缓存击穿"></a><font color=red>16、缓存击穿</font></h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240509095605280-1737881543402208.png" alt="image-20240509095605280"></p>
 <h2 id="黑马点评逻辑"><a href="#黑马点评逻辑" class="headerlink" title="黑马点评逻辑"></a>黑马点评逻辑</h2><p>（缓存击穿）互斥锁&#x2F;逻辑过期 ：下边两个在获取锁成功后，都需要再次查询缓存，若缓存中数据符合条件直接返回。</p>
-<p>| <img src="JOB-md.assets/image-20240510190321576-1737881543402207.png" alt="image-20240510190321576" style="zoom:67%;" /> | <img src="F:/CurrentTasks/新建文件夹/Redis.assets/image-20240510190517735.png" alt="image-20240510190517735" style="zoom: 50%;" /> |</p>
+<p>| <img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240510190321576-1737881543402207.png" alt="image-20240510190321576" style="zoom: 50%;" /> | <img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240510190517735.png" alt="image-20240510190517735" style="zoom: 50%;" /> |</p>
 <p>优惠券秒杀（全局唯一ID生成器—基于Redis）：</p>
-<p><img src="/JOB-md.assets/image-20240512104853058-1737881543402210.png" alt="image-20240512104853058"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240512104853058-1737881543402210.png" alt="image-20240512104853058"></p>
 <p>redission可重入&#x2F;可重试：</p>
-<p> <img src="F:/CurrentTasks/新建文件夹/Redis.assets/image-20240512085222453.png" alt="image-20240512085222453" style="zoom: 67%;" />  <img src="JOB-md.assets/image-20240512105816975-1737881543402212.png" alt="image-20240512105816975" style="zoom: 67%;" /> |</p>
-<p> <img src="F:/CurrentTasks/新建文件夹/Redis.assets/image-20240512105239705.png" alt="image-20240512105239705" style="zoom: 67%;" /> <img src="JOB-md.assets/image-20240512105522335-1737881543402213.png" alt="image-20240512105522335" style="zoom: 67%;" /> </p>
-<p> <img src="/JOB-md.assets/image-20240513110518195-1737881543402215.png" alt="image-20240513110518195"> <img src="/JOB-md.assets/image-20240513112918248-1737881543402216.png" alt="image-20240513112918248"> </p>
-<p><img src="/JOB-md.assets/image-20240513114043883-1737881543402217.png" alt="image-20240513114043883"></p>
+<p> <img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240512085222453.png" alt="image-20240512085222453" style="zoom: 50%;" />  <img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240512105816975-1737881543402212.png" alt="image-20240512105816975" style="zoom: 67%;" /> |</p>
+<p> <img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240512105239705.png" alt="image-20240512105239705" style="zoom: 67%;" /> <img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240512105522335-1737881543402213.png" alt="image-20240512105522335" style="zoom: 67%;" /> </p>
+<p> <img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240513110518195-1737881543402215.png" alt="image-20240513110518195"> <img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240513112918248-1737881543402216.png" alt="image-20240513112918248"> </p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240513114043883-1737881543402217.png" alt="image-20240513114043883"></p>
 <p>小功能：</p>
-<p><img src="/JOB-md.assets/image-20240514090917016-1737881543402218.png" alt="image-20240514090917016"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240514090917016-1737881543402218.png" alt="image-20240514090917016"></p>
 <p>缓存穿透—布隆</p>
 <p><strong>布隆过滤器的基本原理：</strong></p>
 <ol>
@@ -5674,8 +5654,8 @@
 </ol>
 <p><strong>需要注意的是，由于多个元素可能映射到位数组中的相同位置，因此布隆过滤器可能会出现“误伤”的情况，即某个元素被错误地判断为存在于集合中（false positive）。这种误判主要是由于哈希冲突引起的。</strong></p>
 <p><strong>总的来说，布隆过滤器通过牺牲一定的准确性来换取内存占用和查询速度上的优势，因此在设计和使用时需要权衡误判率和内存消耗。</strong></p>
-<p> <img src="/JOB-md.assets/image-20240508202826128-1737881543402219.png" alt="image-20240508202826128"></p>
-<h2 id="17、Redis的跳表是怎么实现的，性能如何，层高怎么生成的"><a href="#17、Redis的跳表是怎么实现的，性能如何，层高怎么生成的" class="headerlink" title="17、Redis的跳表是怎么实现的，性能如何，层高怎么生成的"></a>17、Redis的跳表是怎么实现的，性能如何，层高怎么生成的</h2><p><img src="/JOB-md.assets/image-20240823105627304-1737881543402220.png" alt="image-20240823105627304"></p>
+<p> <img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240508202826128-1737881543402219.png" alt="image-20240508202826128"></p>
+<h2 id="17、Redis的跳表是怎么实现的，性能如何，层高怎么生成的"><a href="#17、Redis的跳表是怎么实现的，性能如何，层高怎么生成的" class="headerlink" title="17、Redis的跳表是怎么实现的，性能如何，层高怎么生成的"></a>17、Redis的跳表是怎么实现的，性能如何，层高怎么生成的</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240823105627304-1737881543402220.png" alt="image-20240823105627304"></p>
 <p><a href="https://huangz.works/redisbook1e/preview/skiplist/datastruct.html">链接</a></p>
 <p>每次创建一个新跳跃表节点的时候， 程序都根据幂次定律 （<a href="http://en.wikipedia.org/wiki/Power_law">power law</a>，越大的数出现的概率越小） 随机生成一个介于 <code>1</code> 和 <code>32</code> 之间的值作为 <code>level</code> 数组的大小， 这个大小就是层的“高度”；</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">zskiplistNode</span> &#123;</span></span><br><span class="line">    <span class="comment">// 后退指针</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">zskiplistNode</span> *<span class="title">backward</span>;</span></span><br><span class="line">    <span class="comment">// 分值</span></span><br><span class="line">    <span class="type">double</span> score;</span><br><span class="line">    <span class="comment">// 成员对象</span></span><br><span class="line">    robj *obj;</span><br><span class="line">    <span class="comment">// 层</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">zskiplistLevel</span> &#123;</span></span><br><span class="line">        <span class="comment">// 前进指针</span></span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">zskiplistNode</span> *<span class="title">forward</span>;</span></span><br><span class="line">        <span class="comment">// 跨度</span></span><br><span class="line">        <span class="type">unsigned</span> <span class="type">int</span> span;</span><br><span class="line">    &#125; level[];</span><br><span class="line">&#125; zskiplistNode;</span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">zskiplist</span> &#123;</span></span><br><span class="line">    <span class="comment">// 表头节点和表尾节点</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">zskiplistNode</span> *<span class="title">header</span>, *<span class="title">tail</span>;</span></span><br><span class="line">    <span class="comment">// 表中节点的数量</span></span><br><span class="line">    <span class="type">unsigned</span> <span class="type">long</span> length;</span><br><span class="line">    <span class="comment">// 表中层数最大的节点的层数</span></span><br><span class="line">    <span class="type">int</span> level;</span><br><span class="line">&#125; zskiplist;</span><br></pre></td></tr></table></figure>
@@ -5685,25 +5665,25 @@
 <p>主节点主要用于写数据，从节点主要用于读数据。</p>
 <p>管理员为Sentinel（哨兵），不用负责数据的读写。管理员可能为几个。哨兵每隔10秒问候主节点</p>
 <h1 id="分布式"><a href="#分布式" class="headerlink" title="分布式"></a>分布式</h1><p>路由工厂：读取路由的判断规则，而后把他解析成对应的判断条件，等请求进来做判断。</p>
-<img src="JOB-md.assets/image-20240427205552841-1737881543402221.png" alt="image-20240427205552841" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240427205552841-1737881543402221.png" alt="image-20240427205552841" style="zoom: 67%;" />
 
 <p>计算热点数据用到的方法：</p>
-<img src="JOB-md.assets/image-20240501095229051-1737881543402222.png" alt="image-20240501095229051" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240501095229051-1737881543402222.png" alt="image-20240501095229051" style="zoom:50%;" />
 
-<p><img src="/JOB-md.assets/image-20240501095328905-1737881543402223.png" alt="image-20240501095328905"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240501095328905-1737881543402223.png" alt="image-20240501095328905"></p>
 <p>##1、什么是分布式？为什么需要分布式</p>
 <p>分布式是指在多台计算机上协同⼯作的系统，这些计算机通过⽹络连接在⼀起，共同完成⼀个任务。 </p>
 <p>分布式系统能够有效地解决单台计算机处理能⼒不⾜、系统容易宕机、数据存储容量有限等问题，同时能够提⾼系统的可靠性、可⽤性和性能，适⽤于数据量较⼤、并发量⾼、访问频繁的场景。  </p>
 <p>在分布式系统中，由于数据和计算任务被分布在多台计算机上，不同计算机之间需要进⾏通信和协调，因此需要解决分布式⼀致性、负载均衡、故障恢复、数据共享和安全等问题，同时需要考虑数据的⼀致性和可靠性。因此，分布式系统的设计和实现⽐单机系统更加复杂和困难，需要考虑到多个因素的综合影响。</p>
-<img src="JOB-md.assets/image-20240514092604609-1737881543402224.png" alt="image-20240514092604609" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240514092604609-1737881543402224.png" alt="image-20240514092604609" style="zoom:50%;" />
 
 <p>##2、什么是⽹关，⽹关有哪些作⽤？</p>
 <p>⽹关（Gateway）是连接<strong>两个或多个不同⽹络的设备</strong>，可以实现<strong>协议的转换、数据的转发和安全策略的实现</strong>等功能。简单来说，⽹关是<strong>设备与路由器之间的桥梁</strong>，由它将不同的⽹络间进⾏访问的控制，转换，交接等等</p>
 <p>常⻅的⽹关有<strong>应⽤⽹关、协议⽹关、安全⽹关</strong>等。</p>
 <p>应⽤⽹关：⽤于应⽤层协议的处理，如 HTTP、SMTP 等。 </p>
-<img src="JOB-md.assets/image-20240427201934526-1737881543402225.png" alt="image-20240427201934526" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240427201934526-1737881543402225.png" alt="image-20240427201934526" style="zoom: 67%;" />
 
-<img src="JOB-md.assets/image-20240427201001789-1737881543402226.png" alt="image-20240427201001789" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240427201001789-1737881543402226.png" alt="image-20240427201001789" style="zoom: 67%;" />
 
 <p>网关是基于webflux实现的。 </p>
 <p>跨域问题：浏览器禁止请求的发起者与服务端发生跨域Ajax请求，请求被浏览器拦截的问题。</p>
@@ -5712,9 +5692,9 @@
 <p><strong>什么是RPC？</strong></p>
 <p>RPC 全称为 remote procedure call，即远程过程调⽤。 ⽐如两台服务器 A 和 B，A 服务器上部署⼀个应⽤，B 服务器上部署⼀个应⽤，A 服务器上的应⽤想调⽤B 服务器 上的应⽤提供的⽅法，由于两个应⽤不在⼀个内存空间，不能直接调⽤，所以需要通过⽹络来表达调⽤的语义和传达调⽤的数据。</p>
 <p>Dubbo 架构图：</p>
-<p><img src="/JOB-md.assets/image-20240514094033367-1737881543402227.png" alt="image-20240514094033367"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240514094033367-1737881543402227.png" alt="image-20240514094033367"></p>
 <p>各节点⻆⾊说明：</p>
-<p><img src="/JOB-md.assets/image-20240514094100061-1737881543402228.png" alt="image-20240514094100061"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240514094100061-1737881543402228.png" alt="image-20240514094100061"></p>
 <p><strong>调⽤关系说明：</strong></p>
 <ol>
 <li><p>服务容器负责启动，加载，运⾏服务提供者。 </p>
@@ -5745,7 +5725,7 @@
 </li>
 </ul>
 <h2 id="5、什么是-RPC？⽬前有哪些常⻅的-RPC-框架？实现-RPC-框架的核⼼原理-是什么？"><a href="#5、什么是-RPC？⽬前有哪些常⻅的-RPC-框架？实现-RPC-框架的核⼼原理-是什么？" class="headerlink" title="5、什么是 RPC？⽬前有哪些常⻅的 RPC 框架？实现 RPC 框架的核⼼原理 是什么？"></a>5、什么是 RPC？⽬前有哪些常⻅的 RPC 框架？实现 RPC 框架的核⼼原理 是什么？</h2><p>RPC【<strong>Remote Procedure Call</strong>】是指远程过程调⽤，是⼀种<strong>进程间通信</strong>⽅式，他是⼀种技术的思想，⽽不是规范。它<strong>允许程序调⽤另⼀个地址空间（通常是共享⽹络的另⼀台机器上）的过程或函数</strong>，⽽不⽤程序员显式编码这个远程调⽤的细节。即程序员⽆论是调⽤本地的还是远程的函数，<strong>本质上编写的调⽤代码基本相同</strong>。</p>
-<img src="JOB-md.assets/image-20240514095246125-1737881543402229.png" alt="image-20240514095246125" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240514095246125-1737881543402229.png" alt="image-20240514095246125" style="zoom: 67%;" />
 
 <p>⽬前常⻅的 <strong>RPC 框架</strong>有：</p>
 <ol>
@@ -5757,7 +5737,7 @@
 <h2 id="6、什么是注册中心？如何实现⼀个注册中心？"><a href="#6、什么是注册中心？如何实现⼀个注册中心？" class="headerlink" title="6、什么是注册中心？如何实现⼀个注册中心？"></a>6、什么是注册中心？如何实现⼀个注册中心？</h2><p>注册中⼼是<strong>服务实例信息的存储仓库，也是服务提供者和服务消费者进⾏交互的桥梁</strong>。它主要提供了<strong>服务注册和服务发现</strong>这两⼤核⼼功能。在⼀个分布式系统中，不同的服务会以微服务的形式运⾏在不同的机器上，它们需要相互通信以完成业务逻辑。⽽注册中⼼则充当了服务之间的“⻩⻚”，记录了所有可⽤的服务及其⽹络地址，⽅便其他服务进⾏查找和调⽤。 </p>
 <p>当⼀个新的服务启动时，它会向注册中⼼注册⾃⼰的⽹络地址和⼀些元数据信息（例如服务名称、版本号、健康状态等），注册中⼼会将这些信息存储在⾃⼰的数据中⼼中。当其他服务需要调⽤这个新服务时，它们可以通过向注册中⼼查询来获取该服务的地址和元数据信息，然后与该服务建⽴⽹络连接。</p>
 <p> 常⻅的注册中⼼包括 ZooKeeper、Consul、Eureka 、Nacos 等等</p>
-<p><img src="/JOB-md.assets/image-20240427204241650-1737881543402230.png" alt="image-20240427204241650"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240427204241650-1737881543402230.png" alt="image-20240427204241650"></p>
 <p>实现⼀个注册中⼼：</p>
 <ol>
 <li><p>设计数据模型：设计注册中⼼的数据模型，包括服务的元数据信息、服务实例的⽹络地址等。</p>
@@ -5784,38 +5764,38 @@
 </ol>
 <p><strong>CAP 与 BASE 关系</strong></p>
 <p>BASE 是对 CAP 中⼀致性和可⽤性权衡的结果，其来源于对⼤规模互联⽹系统分布式实践的结论，是基于 CAP定理逐步演化⽽来的，其核⼼思想是即使⽆法做到强⼀致性（Strong consistency），更具体地说，是对 CAP 中 AP  ⽅案的⼀个补充。其基本思路就是：通过业务，牺牲强⼀致性⽽获得可⽤性，并允许数据在⼀段时间内是不⼀致 的，但是最终达到⼀致性状态。</p>
-<p><img src="/JOB-md.assets/image-20240514095643706-1737881543402231.png" alt="image-20240514095643706"></p>
-<p><img src="/JOB-md.assets/image-20240521110925023-1737881543402232.png" alt="image-20240521110925023"></p>
-<p><img src="/JOB-md.assets/image-20240521110944896-1737881543402233.png" alt="image-20240521110944896"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240514095643706-1737881543402231.png" alt="image-20240514095643706"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521110925023-1737881543402232.png" alt="image-20240521110925023"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521110944896-1737881543402233.png" alt="image-20240521110944896"></p>
 <p><strong>事务协调器，起到一个拦截事务请求的作用。</strong></p>
-<h2 id="8、分布式事务解决方案"><a href="#8、分布式事务解决方案" class="headerlink" title="8、分布式事务解决方案"></a>8、分布式事务解决方案</h2><p><img src="/JOB-md.assets/image-20240521203221147-1737881543402234.png" alt="image-20240521203221147"></p>
-<h2 id="9、幂等"><a href="#9、幂等" class="headerlink" title="9、幂等"></a>9、幂等</h2><p><img src="/JOB-md.assets/image-20240521212134725-1737881543402235.png" alt="image-20240521212134725"></p>
-<h2 id="10、分布式任务调度"><a href="#10、分布式任务调度" class="headerlink" title="10、分布式任务调度"></a>10、分布式任务调度</h2><img src="JOB-md.assets/image-20240521213330122-173788154335631.png" alt="image-20240521213330122" style="zoom:67%;" />
+<h2 id="8、分布式事务解决方案"><a href="#8、分布式事务解决方案" class="headerlink" title="8、分布式事务解决方案"></a>8、分布式事务解决方案</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521203221147-1737881543402234.png" alt="image-20240521203221147"></p>
+<h2 id="9、幂等"><a href="#9、幂等" class="headerlink" title="9、幂等"></a>9、幂等</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521212134725-1737881543402235.png" alt="image-20240521212134725"></p>
+<h2 id="10、分布式任务调度"><a href="#10、分布式任务调度" class="headerlink" title="10、分布式任务调度"></a>10、分布式任务调度</h2><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521213330122-173788154335631.png" alt="image-20240521213330122" style="zoom:67%;" />
 
-<p><img src="/JOB-md.assets/image-20240821102935479-1737881543402236.png" alt="image-20240821102935479"></p>
-<img src="JOB-md.assets/image-20240821103351415-1737881543402238.png" alt="image-20240821103351415" style="zoom: 67%;" />
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240821102935479-1737881543402236.png" alt="image-20240821102935479"></p>
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240821103351415-1737881543402238.png" alt="image-20240821103351415" style="zoom: 67%;" />
 
-<h2 id="11、分布式事务"><a href="#11、分布式事务" class="headerlink" title="11、分布式事务"></a>11、分布式事务</h2><img src="JOB-md.assets/image-20240828084350303-1737881543402237.png" alt="image-20240828084350303"  />
+<h2 id="11、分布式事务"><a href="#11、分布式事务" class="headerlink" title="11、分布式事务"></a>11、分布式事务</h2><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240828084350303-1737881543402237.png" alt="image-20240828084350303"  />
 
 
 
-<p><img src="/JOB-md.assets/image-20240828084535876-1737881543402239.png" alt="image-20240828084535876"></p>
-<p><img src="/JOB-md.assets/image-20240828084729589-1737881543402242.png" alt="image-20240828084729589"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240828084535876-1737881543402239.png" alt="image-20240828084535876"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240828084729589-1737881543402242.png" alt="image-20240828084729589"></p>
 <p><strong>TCC 代码补偿事务（3pc）：解决跨服务调用场景下的分布式事务问题。</strong></p>
 <p>非强一致性、保证的是最终一致性。</p>
-<img src="JOB-md.assets/image-20240828085323684-1737881543402240.png" alt="image-20240828085323684" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240828085323684-1737881543402240.png" alt="image-20240828085323684" style="zoom:67%;" />
 
-<p><img src="/JOB-md.assets/image-20240828085612659-1737881543402241.png" alt="image-20240828085612659"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240828085612659-1737881543402241.png" alt="image-20240828085612659"></p>
 <p><strong>本地消息：</strong>   </p>
-<p><img src="/JOB-md.assets/image-20240828090009203-1737881543402243.png" alt="image-20240828090009203"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240828090009203-1737881543402243.png" alt="image-20240828090009203"></p>
 <p>问题：网络问题造成的5，没有收到请求。</p>
 <p>解决：<img src="/JOB-md.assets/image-20240828090226478-1737881543402244.png" alt="image-20240828090226478"></p>
 <p><strong>同时需要保证消息的幂等性</strong>：使用乐观锁</p>
 <p><strong>Seata框架</strong>：AT(2PC 的改进)和TCC</p>
 <p><strong>Transaction Coordinator (TC)<strong>、</strong>Transaction Manager (TM)<strong>、</strong>Resource Manager (RM)</strong></p>
-<img src="JOB-md.assets/image-20240828090801586-1737881543402245.png" alt="image-20240828090801586" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240828090801586-1737881543402245.png" alt="image-20240828090801586" style="zoom:50%;" />
 
-<p><img src="/JOB-md.assets/image-20240828090925022-1737881543402246.png" alt="image-20240828090925022"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240828090925022-1737881543402246.png" alt="image-20240828090925022"></p>
 <h1 id="消息队列"><a href="#消息队列" class="headerlink" title="消息队列"></a>消息队列</h1><p>##1、什么是消息队列？消息队列有哪些应⽤场景？</p>
 <p>消息队列是⼀种⽤于异步通信的机制，⽤于在不同的应⽤程序之间传递消息。消息队列通常由<strong>消息⽣产者、消息队列和消息消费者</strong>三部分组成。</p>
 <p>消息⽣产者将消息发送到消息队列中，⽽消息消费者则从消息队列中接收消息。<strong>消息队列负责存储和管理消息，确保消息传递的可靠性和稳定性。在实现过程中，消息队列还会提供⼀些额外的功能，如消息过滤、消息路由、消息持久化等</strong>。</p>
@@ -5834,16 +5814,16 @@
 <li><strong>⽇志收集：</strong>通过将⽇志消息发送到消息队列中，将⽇志收集和分析与业务逻辑解耦合，提⾼系统的可靠性和可维护性</li>
 <li><strong>应⽤解耦</strong>：将不同的应⽤程序通过消息队列进⾏集成，实现应⽤之间的解耦合和数据交换。</li>
 </ol>
-<p><img src="/JOB-md.assets/image-20240820093953304-1737881543402247.png" alt="image-20240820093953304"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240820093953304-1737881543402247.png" alt="image-20240820093953304"></p>
 <p>1、</p>
 <p>2、均匀的分发消息给消费者，消息只能被消费一次：12306</p>
 <p>3、发布订阅：生产者发的消息可以发给不同的队列，消息可以重复消费：天气预报，不同的网站接收消息</p>
 <p>4、路由：附加路由Key，对数据进行筛选，发送给不同的队列，消费精准分发给消费者</p>
 <p>5、主题模式：模糊匹配，根据通配符匹配队列分给不同的队列</p>
 <p>6、RPC同步通信：异步通信不能获得结果，Rabbitmq提供了相同的实现。使用dubbo</p>
-<p><img src="/JOB-md.assets/image-20240820095736109-1737881543402248.png" alt="image-20240820095736109"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240820095736109-1737881543402248.png" alt="image-20240820095736109"></p>
 <p>##2、有哪些主流的消息队列，它们分别有什么优缺点、各⾃的适⽤场景是什 么？</p>
-<p><img src="/JOB-md.assets/image-20240514100043079-173788154335633.png" alt="image-20240514100043079"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240514100043079-173788154335633.png" alt="image-20240514100043079"></p>
 <p>##3、有哪些常⻅的消息队列模型？分别适⽤于什么场景？</p>
 <p>⼀、什么是消息队列</p>
 <p>我们可以把消息队列⽐作是⼀个存放消息的容器，当我们需要使⽤消息的时候可以取出消息供⾃⼰使⽤。<strong>消息队列是分布式系统中重要的组件，使⽤消息队列主要是为了通过异步处理提⾼系统性能和削峰、降低系统耦合性</strong></p>
@@ -5866,33 +5846,33 @@
 </ol>
 <p>##4、如何保证消息不丢失？</p>
 <p><strong>RabbitMQ</strong></p>
-<p><img src="/JOB-md.assets/image-20240521111731827-173788154335635.png" alt="image-20240521111731827"></p>
-<p><img src="/JOB-md.assets/image-20240521112716302-1737881543402249.png" alt="image-20240521112716302"></p>
-<p><img src="/JOB-md.assets/image-20240521111858513-1737881543402250.png"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521111731827-173788154335635.png" alt="image-20240521111731827"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521112716302-1737881543402249.png" alt="image-20240521112716302"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521111858513-1737881543402250.png"></p>
 <p>消息、队列、交换机</p>
-<p><img src="/JOB-md.assets/image-20240521112753397-1737881543402252.png" alt="image-20240521112753397"></p>
-<p><img src="/JOB-md.assets/image-20240521112345993-1737881543402251.png" alt="image-20240521112345993"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521112753397-1737881543402252.png" alt="image-20240521112753397"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521112345993-1737881543402251.png" alt="image-20240521112345993"></p>
 <p>kafka</p>
-<p><img src="/JOB-md.assets/image-20240521170540203-1737881543402253.png" alt="image-20240521170540203"></p>
-<p><img src="/JOB-md.assets/image-20240521191838903-1737881543403254.png" alt="image-20240521191838903"></p>
-<h2 id="5、消息的重复消费"><a href="#5、消息的重复消费" class="headerlink" title="5、消息的重复消费"></a>5、消息的重复消费</h2><p><img src="/JOB-md.assets/image-20240521113052775-1737881543403255.png" alt="image-20240521113052775"></p>
-<p><img src="/JOB-md.assets/image-20240521113104264-1737881543403256.png" alt="image-20240521113104264"></p>
-<h2 id="6、RabbitMQ-死信交换机-延迟队列"><a href="#6、RabbitMQ-死信交换机-延迟队列" class="headerlink" title="6、RabbitMQ 死信交换机&#x2F;延迟队列"></a>6、RabbitMQ 死信交换机&#x2F;延迟队列</h2><p><img src="/JOB-md.assets/image-20240521113320746-1737881543403257.png" alt="image-20240521113320746"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521170540203-1737881543402253.png" alt="image-20240521170540203"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521191838903-1737881543403254.png" alt="image-20240521191838903"></p>
+<h2 id="5、消息的重复消费"><a href="#5、消息的重复消费" class="headerlink" title="5、消息的重复消费"></a>5、消息的重复消费</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521113052775-1737881543403255.png" alt="image-20240521113052775"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521113104264-1737881543403256.png" alt="image-20240521113104264"></p>
+<h2 id="6、RabbitMQ-死信交换机-延迟队列"><a href="#6、RabbitMQ-死信交换机-延迟队列" class="headerlink" title="6、RabbitMQ 死信交换机&#x2F;延迟队列"></a>6、RabbitMQ 死信交换机&#x2F;延迟队列</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521113320746-1737881543403257.png" alt="image-20240521113320746"></p>
 <p><img src="/JOB-md.assets/image-20240521113956194-173788154336437.png" alt="image-20240521113956194"></p>
-<p><img src="/JOB-md.assets/image-20240521114216907-1737881543403258.png" alt="image-20240521114216907"></p>
-<p><img src="/JOB-md.assets/image-20240521115026051-173788154336539.png" alt="image-20240521115026051"></p>
-<h2 id="7、消息堆积怎么解决？"><a href="#7、消息堆积怎么解决？" class="headerlink" title="7、消息堆积怎么解决？"></a>7、消息堆积怎么解决？</h2><p><img src="/JOB-md.assets/image-20240521145959612-173788154336541.png" alt="image-20240521145959612"></p>
-<p><img src="/JOB-md.assets/image-20240521150319785-173788154336543.png" alt="image-20240521150319785"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521114216907-1737881543403258.png" alt="image-20240521114216907"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521115026051-173788154336539.png" alt="image-20240521115026051"></p>
+<h2 id="7、消息堆积怎么解决？"><a href="#7、消息堆积怎么解决？" class="headerlink" title="7、消息堆积怎么解决？"></a>7、消息堆积怎么解决？</h2><p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521145959612-173788154336541.png" alt="image-20240521145959612"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521150319785-173788154336543.png" alt="image-20240521150319785"></p>
 <p>RabbitMQ：惰性队列：</p>
-<p><img src="/JOB-md.assets/image-20240521150127802-173788154336545.png" alt="image-20240521150127802"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521150127802-173788154336545.png" alt="image-20240521150127802"></p>
 <p>RabbitMQ的高可用；普通集群、镜像集群、仲裁队列（用来代替镜像集群）</p>
-<p><img src="/JOB-md.assets/image-20240521152128335-173788154336547.png" alt="image-20240521152128335"></p>
-<p><img src="/JOB-md.assets/image-20240521164107445-1737881543403259.png" alt="image-20240521164107445"></p>
-<p><img src="/JOB-md.assets/image-20240521193413040-173788154336549.png" alt="image-20240521193413040"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521152128335-173788154336547.png" alt="image-20240521152128335"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521164107445-1737881543403259.png" alt="image-20240521164107445"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521193413040-173788154336549.png" alt="image-20240521193413040"></p>
 <p>##8、kafka数据清理机制</p>
-<p><img src="/JOB-md.assets/image-20240521200429661-1737881543403260.png" alt="image-20240521200429661"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521200429661-1737881543403260.png" alt="image-20240521200429661"></p>
 <h2 id="9、kafka实现高性能的设计"><a href="#9、kafka实现高性能的设计" class="headerlink" title="9、kafka实现高性能的设计"></a>9、kafka实现高性能的设计</h2><p>零拷贝指的是cpu不参与拷贝，可以使用dma硬件参与拷贝而非cpu</p>
-<p><img src="/JOB-md.assets/image-20240521201405088-1737881543403261.png" alt="image-20240521201405088"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521201405088-1737881543403261.png" alt="image-20240521201405088"></p>
 <p>##10、</p>
 <p><a href="https://gw-c.nowcoder.com/api/sparta/jump/link?link=https://github.com/shaogezhu/easy-rpc">https://github.com/shaogezhu/easy-rpc</a>  </p>
 <p>#JWT令牌技术</p>
@@ -5947,12 +5927,12 @@
 <li><strong>请求时携带 JWT</strong>：客户端每次请求资源时，将 JWT 附加到 HTTP 请求头中（通常放在 <code>Authorization: Bearer &lt;token&gt;</code>）。</li>
 <li><strong>服务器验证 JWT</strong>：服务器接收到请求后，验证 JWT 的有效性。如果 JWT 合法且未过期，则允许访问资源，否则拒绝访问。</li>
 </ol>
-<h1 id="SpringCloud"><a href="#SpringCloud" class="headerlink" title="SpringCloud"></a>SpringCloud</h1><img src="JOB-md.assets/image-20240815220913477.png" alt="image-20240815220913477"  />
+<h1 id="SpringCloud"><a href="#SpringCloud" class="headerlink" title="SpringCloud"></a>SpringCloud</h1><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240815220913477.png" alt="image-20240815220913477"  />
 
-<p><img src="/JOB-md.assets/image-20240521090259863-173788154336652.png" alt="image-20240521090259863"></p>
-<p><img src="/JOB-md.assets/image-20240521092554347-173788154336654.png" alt="image-20240521092554347"></p>
-<p><img src="/JOB-md.assets/image-20240521095516111-173788154336656.png" alt="image-20240521095516111"></p>
-<p><img src="/JOB-md.assets/image-20240521101912614-1737881543403262.png" alt="image-20240521101912614"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521090259863-173788154336652.png" alt="image-20240521090259863"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521092554347-173788154336654.png" alt="image-20240521092554347"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521095516111-173788154336656.png" alt="image-20240521095516111"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521101912614-1737881543403262.png" alt="image-20240521101912614"></p>
 <p>| <img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240521103404530.png" alt="image-20240521103404530" style="zoom: 67%;" /> | <img src="JOB-md.assets/image-20240521103554430-1737881543403263.png" alt="image-20240521103554430" style="zoom:67%;" /> |</p>
 <p>##1、反向代理和正向代理的区别？为什么要反向代理？</p>
 <p>正向代理：用来代理客户端，对服务器发起请求，<strong>服务器不知道哪个客户端发来的请求</strong>，只清楚是代理服务器发过来的，eg：我们常用的魔法；</p>
@@ -5963,7 +5943,7 @@
 <p>一些反向代理可以充当缓存机器。通常，如果您在一分钟内发送一千个请求请求相同的资源，这些请求将一遍遍地到达请求相同资源的服务器，浪费了资源和宝贵的时间。首次请求资源时，反向代理可以缓存(保存)获取的资源，等下次需要相同资源时，直接可以获取，节省了资源和时间。</p>
 <p>3、保障安全</p>
 <p>如果使用反向代理，请求不会直接到达Web服务器。它们有助于保护Web服务器免受已知漏洞的影响。</p>
-<h1 id="Shell"><a href="#Shell" class="headerlink" title="Shell"></a>Shell</h1><img src="JOB-md.assets/image-20240830195940705-1737881543403264.png" alt="image-20240830195940705" style="zoom:80%;" />
+<h1 id="Shell"><a href="#Shell" class="headerlink" title="Shell"></a>Shell</h1><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240830195940705-1737881543403264.png" alt="image-20240830195940705" style="zoom:80%;" />
 
 <p>以bash为例：</p>
 <p>cat:查看命令</p>
@@ -5972,10 +5952,10 @@
 <p>​                   脚本开头：#!&#x2F;bin&#x2F;bash</p>
 <p>执行脚本命令：.&#x2F;+脚本名称</p>
 <p>修改执行权限：<code>chmod a+x hello.sh</code>的作用是为所有用户（<code>a</code>代表所有用户，<code>u</code>代表文件所有者，<code>g</code>代表文件所属组的成员，<code>o</code>代表其他用户）添加执行（<code>x</code>）权限到文件<code>hello.sh</code>。</p>
-<img src="JOB-md.assets/image-20240830202030670-1737881543403265.png" alt="image-20240830202030670" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240830202030670-1737881543403265.png" alt="image-20240830202030670" style="zoom:67%;" />
 
 <p>显示所有文件，.bashrc是在用户登录的时候只执行一次，.profile是在每次打开一个终端或者新建一个会话的时候执行的</p>
-<p><img src="/JOB-md.assets/image-20240830202240602-1737881543403267.png" alt="image-20240830202240602"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240830202240602-1737881543403267.png" alt="image-20240830202240602"></p>
 <p>修改.bashrc文件之后，需要使用source或者.命令重新加载一下文件</p>
 <p>alias:	起别名</p>
 <p>shuf:    生成随机数</p>
@@ -5988,10 +5968,10 @@
 <li><code>$(())</code> 结构用于算术扩展（Arithmetic Expansion），它允许在shell中进行基本的算术运算。</li>
 <li>在 <code>$(())</code> 中可以执行加（+）、减（-）、乘（*）、除（&#x2F;）、取模（%）等算术操作，以及对变量进行自增（++）或自减（–）操作。</li>
 </ul>
-<p><img src="F:/CurrentTasks/新建文件夹/Redis.assets/image-20240830203907655.png" alt="image-20240830203907655" style="zoom: 50%;" />![屏幕截图 2024-11-12 202953](JOB-md.assets&#x2F;屏幕截图 2024-11-12 202953-1737881543403268.png)</p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240830203907655.png" alt="image-20240830203907655" style="zoom: 50%;" /><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-11-12%20202953-1737881543403268.png" alt="屏幕截图 2024-11-12 202953"></p>
 <p>echo:<code>echo</code> 是一个在类 Unix 系统中的常用命令，用于在终端或命令行界面输出（打印）文本或变量的值到标准输出（通常是屏幕）</p>
 <p><code>grep</code> 命令的名称来源于 “global regular expression print”，即在全局范围内按照正则表达式打印匹配的文本行。</p>
-<p><img src="/JOB-md.assets/image-20240830205629761-1737881543403269.png" alt="image-20240830205629761"></p>
+<p><img src="https://raw.githubusercontent.com/watermelon-create/MyPic/img/img/image-20240830205629761-1737881543403269.png" alt="image-20240830205629761"></p>
 <p><code>sed</code> 是一种流编辑器，用于对文本进行过滤和转换。命令 <code>sed -n &#39;10p&#39; file.txt</code> 的作用是打印文件 <code>file.txt</code> 中第10行的内容。</p>
 <p>下面是命令中各个部分的解释：</p>
 <ul>
