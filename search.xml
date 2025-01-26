@@ -6035,4 +6035,42 @@
         <tag>Java_knowledge-update</tag>
       </tags>
   </entry>
+  <entry>
+    <title>秋招小结.md</title>
+    <url>/2025/01/26/%E7%A7%8B%E6%8B%9B%E5%B0%8F%E7%BB%93/</url>
+    <content><![CDATA[<h1 id="面试一家企业"><a href="#面试一家企业" class="headerlink" title="面试一家企业"></a>面试一家企业</h1><p><strong>在面试一家企业之前，无论是私企，还是国央企，以及其他，了解下这家企业价值观以及产品。而这些问题，如果这家企业只有一面的话，最好提前准备好，因为他会在技术面之后紧接着问你这些不痛不痒的问题，而这些问题回答不好大概率会将你淘汰；如果有两面三面的话，会在人力面亦或者主管压力面会询问这种问题。下面举几个例子：</strong></p>
+<p>1、了解下公司是做什么的？了解公司的企业文化价值观？</p>
+<p>2、你的未来规划是什么？</p>
+<p>3、如何看待私企和国企？</p>
+<p>4、职业规划？</p>
+<p>5、你为啥没实习？你有几篇论文？</p>
+<p>还有一些AI面，就是说一些相关的问题，项目经验啥的，能自圆其说，清晰的表达出来就行。</p>
+<p>还有一些无语的问题就不进行一一枚举了。一些相关的问题可以看一些app: 牛客、小红书、B站等等</p>
+<h1 id="JAVA相关八股、技术、项目"><a href="#JAVA相关八股、技术、项目" class="headerlink" title="JAVA相关八股、技术、项目"></a>JAVA相关八股、技术、项目</h1><h2 id="八股"><a href="#八股" class="headerlink" title="八股"></a>八股</h2><p>这个东西很多，是背不完的，下面是我看的一些，当然不可能看完，不会的就去里面翻翻：</p>
+<p>B站黑马：<a href="https://www.bilibili.com/video/BV1yT411H7YK/?spm_id_from=333.337.top_right_bar_window_custom_collection.content.click&vd_source=03235a8277a4e1950048927a7c975e38">https://www.bilibili.com/video/BV1yT411H7YK/?spm_id_from=333.337.top_right_bar_window_custom_collection.content.click&amp;vd_source=03235a8277a4e1950048927a7c975e38</a></p>
+<p>小林coding：<a href="https://xiaolincoding.com/">https://xiaolincoding.com/</a></p>
+<p>JavaGuide：<a href="https://javaguide.cn/">https://javaguide.cn/</a></p>
+<p>Java全栈知识体系：<a href="https://pdai.tech/md/outline/x-outline.html">https://pdai.tech/md/outline/x-outline.html</a></p>
+<p>阿秀的学习笔记：<a href="https://interviewguide.cn/">https://interviewguide.cn/</a></p>
+<h2 id="技术"><a href="#技术" class="headerlink" title="技术"></a>技术</h2><p>Redis：<a href="https://www.bilibili.com/video/BV1cr4y1671t/?spm_id_from=333.337.top_right_bar_window_custom_collection.content.click">https://www.bilibili.com/video/BV1cr4y1671t/?spm_id_from=333.337.top_right_bar_window_custom_collection.content.click</a></p>
+<p>SpringCloud：<a href="https://www.bilibili.com/video/BV1LQ4y127n4/?spm_id_from=333.788.top_right_bar_window_custom_collection.content.click">https://www.bilibili.com/video/BV1LQ4y127n4/?spm_id_from=333.788.top_right_bar_window_custom_collection.content.click</a></p>
+<p>前面一些SE、JDBC、MySQL、SSM、SpringBoot，自己市面随便挑一家看就行了</p>
+<hr>
+<p>数据结构：刷刷<a href="https://leetcode.cn/">力扣</a>，看看<a href="https://www.bing.com/search?q=%E4%BB%A3%E7%A0%81%E9%9A%8F%E6%83%B3%E5%BD%95&qs=SS&pq=%E4%BB%A3%E7%A0%81%E9%9A%8F%E6%83%B3%E5%BD%95&sc=12-5&cvid=E206E66286BD4B9AA3A337DCB9C99DC3&FORM=QBRE&sp=1&lq=0">代码随想录</a>就行了，不需要投入太多时间。力扣主要看hot１００，也有看１５０的，配上代码随想录就行了，世界很美好，这样做性价比很低。</p>
+<p>像计网，操作系统啥的，看看八股就好。</p>
+<hr>
+<p>如果你要进大厂，狠狠学，这些东西要有些理解，项目也要可以，不过好像实习更重要？哈</p>
+<h2 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h2><p>RPC和代驾项目，全是B站烂大街的。我听说还有手搓操作系统的。我也不知道做啥项目，也可以去B站买个你感兴趣的或者觉得的厉害的项目，一般ｕｐ猪会有录制的视频供其学习，具体服务是否到位，我就不得而知了。有很多面试官也会问你为啥做这个东西，不过问的大概率不是技术面试官，因为他没有时间思考这个，你要想好说辞，哈哈。</p>
+<p>项目不要关注具体实现，先把业务看懂，能给别人讲明白，具体实现是牛马（程序员）干的，市面上大点的公司会问具体实现，不过你懂业务并技术也及格的话，后面只是时间的问题，上限也会高点。前面所说的“牛马”一词，是一家管理人员说的，我并不认同，但牛马最多是红利的被动接受者，若技术不过关又不主动只能被边缘化；而你懂业务，可以会点技术的同时，吹点牛逼，遇到点机会还是好点的。管理者可以参与红利的制定，当然是小范围的，但这对于你已经足够了。</p>
+<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>市场上Java主要是用来做ｗｅｂ开发的，而且市场很大。这上面东西很多很多，可能学完这个忘那个，按现在的环境最后也不一定找到满意的工作。我面的主要是私企，运营商之类的话，不会涉及很深的技术，感觉看第一印象？这个可以问问别的师兄。无论什么企业，表达挺重要的，清晰的表达，有条理的回答也是很加分的。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>说一下最近的感受，市面上的工作分为技术和非技术的，对于每一样又有接近客户和远离客户的，因此两两组合可以分为四种工作。这四种工作的区别在于服务人群的不一，不同的人群存在不同经济能力，而他们的需求决定你这份工作的前景。在这个人人翘首以待进国企的时代，可见经济下行给大多数人带来的不安与焦虑。</p>
+<p>秋招进不了国企、事业编没上岸以及工作很垃圾时，也不一定未来会有多坏，希望一样的师弟不要气馁，继续前进，藏锋守拙、韬光养晦待时机成熟也可再杀一次，哈哈。</p>
+]]></content>
+      <categories>
+        <category>Current thinking</category>
+      </categories>
+      <tags>
+        <tag>秋招</tag>
+      </tags>
+  </entry>
 </search>
